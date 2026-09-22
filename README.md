@@ -35,8 +35,11 @@ The layout still fits two pages.
 | Paper | A4 landscape, 5 mm margins |
 | Columns | 5 per page, 55 mm wide, 3 mm gaps |
 | Formulas | bold, 7.5 pt (the only prominent line in each block) |
-| Body / symbol definitions / Meaning / Use / Check | 5.8 pt (column 8 is 5.6 pt) |
+| Body / symbol definitions / Meaning / Use / Check | 5.5 pt |
 | Symbol definitions | one per line, only the symbol bold |
+
+All math script and scriptscript sizes are >= 5.5 pt, so nothing on the sheet
+renders below 5.5 pt.
 
 Each block follows: name → formula → one symbol definition per line →
 `Meaning:` → `Use:` → `Check:` (verification blocks only).
@@ -78,12 +81,39 @@ All eight groups pass.
 
 ## Contents by column
 
-**Page 1** — 1 Probability tools · 2 Build and verify a chain · 3 Finite-time
-probabilities · 4 Models and random walks · 5 First-step analysis
+**Page 1** — 1 Probability tools · 2 Conditioning and process setup ·
+3 Markov property and transitions · 4 Inference, hidden Markov, models ·
+5 Walks and first-step analysis
 
-**Page 2** — 6 Verify and build martingales · 7 Stopping and optional stopping ·
-8 Generating functions and sums · 9 Branching: growth and extinction ·
-10 Branching variants
+**Page 2** — 6 Martingales · 7 Stopping times and OST · 8 Generating functions
+and sums · 9 Branching: growth and extinction · 10 Branching variants
+
+58 blocks total: 57 formulas, 150 symbol definitions, 57 `Meaning`/`Use` pairs,
+10 `Check` procedures.
+
+## `tools/` — layout measurement
+
+The sheet is packed close to the page limit, so two scripts measure and balance
+it without needing a TeX engine.
+
+```sh
+python3 tools/estimate_fill.py cheatsheet.tex   # per-column height vs capacity
+python3 tools/rebalance.py                      # propose a balanced partition
+python3 tools/rebalance.py --write              # apply that partition
+```
+
+`estimate_fill.py` models wrapped-line heights and reports each column as a
+percentage of the usable page height. Its capacity figure is **calibrated**: the
+naive geometric value (539 pt) proved ~9% pessimistic, because the model charges
+a full glyph per LaTeX control word and assumes worse line packing than
+`RaggedRight` achieves. The reference point is a version that compiled to
+exactly two pages while measuring 589 pt in its tallest column, so 589 pt is a
+demonstrated ceiling; the scripts work to 570 pt for margin.
+
+`rebalance.py` measures every block, then finds the **optimal** contiguous split
+into 10 columns by dynamic programming (minimising the tallest column). Greedy
+first-fit is not optimal here and leaves columns overfull, which is why the DP
+is used. Current worst column: 546 pt, 96% of the 570 pt working capacity.
 
 ## `fallback-python/`
 
