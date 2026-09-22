@@ -1,0 +1,548 @@
+% ST3236 / MA3238 Stochastic Processes I -- midterm cheatsheet (2 pages, A4 landscape)
+% =====================================================================
+% BUILD:   pdflatex cheatsheet.tex
+% PACKAGES: geometry, fontenc, newtxtext, newtxmath, amsmath, bm, xcolor,
+%           microtype, ragged2e
+% If newtx is not installed:  replace \usepackage{newtxtext,newtxmath}
+%           with \usepackage{lmodern}  (layout still fits).
+% Diagnostics printed to the log: COLUMN-HEIGHT (per column), WIDE-EQ
+%           (any formula wider than the 55mm column).
+% =====================================================================
+\documentclass[a4paper,landscape]{article}
+\usepackage[margin=5mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+\usepackage{amsmath,bm,xcolor,microtype}
+\usepackage{ragged2e}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{.7em}
+\DeclareMathSizes{5.8}{5.8}{5.6}{5.6}
+\DeclareMathSizes{5.6}{5.6}{5.6}{5.6}
+\DeclareMathSizes{7.5}{7.5}{5.6}{5.6}
+\newcommand{\E}{\mathbb E}
+\newcommand{\PP}{\mathbb P}
+\newcommand{\Var}{\operatorname{Var}}
+\newcommand{\Cov}{\operatorname{Cov}}
+\newcommand{\F}{\mathcal F}
+\newcommand{\ind}{\mathbf1}
+\newcommand{\bx}[2]{\par\vspace{2.2pt}\noindent\textbullet\ #1\hfill{\fontsize{5.6}{6}\selectfont #2}\par\nobreak}
+\newsavebox{\eqbox}
+\newcommand{\eq}[1]{\sbox{\eqbox}{{\fontsize{7.5}{9}\selectfont\boldmath\(\displaystyle #1\)}}\ifdim\wd\eqbox>\linewidth\typeout{WIDE-EQ at line \the\inputlineno: \the\wd\eqbox}\fi \par\nobreak\vspace{1.2pt}{\fontsize{7.5}{9}\selectfont\boldmath\centering\(\displaystyle #1\)\par}\nobreak\vspace{1.2pt}}
+\newcommand{\sy}[2]{\noindent{\boldmath\(#1\)}: #2\par}
+\newcommand{\mng}[1]{Meaning: #1\par}
+\newcommand{\use}[1]{Use: #1\par}
+\newcommand{\ck}[1]{Check: #1\par}
+\newcommand{\sect}[1]{{\fontsize{7.5}{8.8}\selectfont #1\par}\vspace{1.5pt}\hrule\vspace{2pt}}
+\newsavebox{\colbox}
+\newenvironment{col}[1]{\begin{lrbox}{\colbox}\begin{minipage}[t]{55mm}\fontsize{5.8}{6.55}\selectfont\RaggedRight\sect{#1}}{\end{minipage}\end{lrbox}\typeout{COLUMN-HEIGHT: \the\ht\colbox + \the\dp\colbox}\usebox{\colbox}}
+\newcommand{\gap}{\hspace{3mm}}
+\newcommand{\head}[2]{\noindent{\fontsize{9}{10}\selectfont ST3236 / MA3238\quad #1}\hfill{\fontsize{6}{7}\selectfont #2}\par\vspace{3pt}}
+\begin{document}
+\head{Probability, Markov chains and first-step analysis}{Lectures 1--5 / Tutorials 1--5\quad 1 of 2}
+\noindent
+\begin{col}{1\quad Probability tools}
+\bx{Shared notation}{L1--L5}
+\sy{X_n}{state random variable at time/step $n$.}
+\sy{S}{state space: all possible states.}
+\sy{i,j,k}{state labels or summation indices, as specified.}
+\sy{\PP,\E,\Var}{probability, mean, variance.}
+\sy{\PP_i,\E_i}{probability/mean conditional on $X_0=i$.}
+\sy{\ind_A}{indicator: 1 if event $A$ occurs, otherwise 0.}
+\sy{\text{a.s.}}{almost surely: with probability 1.}
+\sy{\text{i.i.d.}}{independent, identically distributed.}
+$Lr:s$ = lecture $r$, printed slide $s$; $Tr.q$ = tutorial $r$, question $q$. Local definitions override shared notation. Sums run over all possible values unless restricted.
+
+\bx{Conditioning and Bayes}{L1:29--33; T1.1}
+\eq{\begin{gathered}\PP(A\mid B)=\frac{\PP(A\cap B)}{\PP(B)}\\
+\PP(A)=\sum_j\PP(A\mid B_j)\PP(B_j)\\
+\PP(B_i\mid A)=\frac{\PP(A\mid B_i)\PP(B_i)}{\sum_j\PP(A\mid B_j)\PP(B_j)}\end{gathered}}
+\sy{A,B}{events; each conditioning event has positive probability.}
+\sy{(B_j)}{partition: mutually exclusive, exhaustive cases.}
+\mng{Combines cases or reverses a conditional probability.}
+\use{Infer a past/hidden cause from evidence. Multiply likelihood by prior; divide by total evidence probability.}
+
+\bx{Mean, variance and indicators}{L1:16,19--22}
+\eq{\begin{gathered}\E[h(X)]=\sum_x h(x)p_X(x)\\
+\Var(X)=\E[X^2]-(\E[X])^2\\
+\E[a+bX]=a+b\E[X]\\
+\Var(a+bX)=b^2\Var(X),\quad \E[\ind_A]=\PP(A)
+\end{gathered}}
+\sy{p_X(x)}{PMF: probability that $X=x$.}
+\sy{h}{function: cost, reward, square, or other transformation.}
+\sy{a,b}{fixed constants: shift and multiplier.}
+\mng{Converts a distribution into moments or expected counts.}
+\use{Use $h(x)=x,x^2$ for mean/second moment; sum indicators to count visits. Finite means/variances need the corresponding absolute/second moments finite.}
+
+\bx{Sums and independence}{L1:25--28}
+\eq{\begin{gathered}\E[\sum_r X_r]=\sum_r\E[X_r]\\
+\Var(\sum_r X_r)=\sum_r\Var(X_r)\\+2\sum_{r<s}\Cov(X_r,X_s)\\
+\Cov(X,Y)=\E[XY]-\E[X]\E[Y]
+\end{gathered}}
+\sy{\Cov}{covariance: joint linear variation.}
+\sy{r,s}{indices of terms in a finite sum.}
+\mng{Adds contributions while accounting for dependence.}
+\use{Linearity needs no independence. Independent variables have zero covariance and $\E[\prod_r X_r]=\prod_r\E[X_r]$. Zero covariance does not imply independence. To verify discrete independence, check joint PMF equals product of marginals for every value combination.}
+
+\bx{Conditional moments}{L1:35--37}
+\eq{\begin{gathered}\E[h(X)\mid Y=y]=\sum_xh(x)\PP(X=x\mid Y=y)\\
+\E[X]=\E[\E[X\mid Y]]\\
+\Var(X)=\E[\Var(X\mid Y)]+\Var(\E[X\mid Y])
+\end{gathered}}
+\sy{Y}{conditioning variable: observed state/count.}
+\sy{y}{fixed observed value of $Y$.}
+\mng{Averages conditional means and splits total uncertainty.}
+\use{Condition on a first step, population, or random count. $\E[X\mid Y]$ is a random variable; $\E[X\mid Y=y]$ is a number.}
+\end{col}\gap%
+\begin{col}{2\quad Build and verify a chain}
+\bx{Process and information}{L1:7; L4:5--6,26}
+\eq{\{X_n:n\ge0\},\qquad \F_n=\sigma(X_0,\ldots,X_n)}
+\sy{\Omega}{sample space: all complete outcomes.}
+\sy{\omega}{outcome: one complete realisation.}
+\sy{\F_n}{history sigma-algebra: events knowable through time $n$.}
+\sy{\sigma(\cdot)}{generated sigma-algebra: all events determined by its variables.}
+\mng{Fix $\omega$ for a sample path; fix $n$ for a random variable.}
+\use{Classify time and state separately: countable means discrete. A filtration is increasing sigma-algebras, $\F_n\subseteq\F_{n+1}$. Each contains $\Omega$ and is closed under complements/countable unions.}
+
+\bx{Show the Markov property}{L2:10; T1.2}
+\eq{\PP(X_{n+1}=j\mid\F_n)=\PP(X_{n+1}=j\mid X_n)}
+\mng{The current state contains all history needed for the next-state distribution.}
+\ck{(1) Specify the state and its possible values. (2) Condition on a possible history ending at $i$. (3) Derive the full next-state law and show it depends only on $i$ (and possibly $n$). Independence of fresh randomness from the history justifies this reduction.}
+\use{``Show it is a Markov chain.'' A law given only conditional on $X_n$ is insufficient without the stated history/Markov assumption. Markov does not mean independent across times.}
+
+\bx{Disprove Markov / enlarge the state}{T1.2; T3.5}
+\eq{\eta_n=(\xi_n,\xi_{n-1}),\quad\eta_{n+1}=(\xi_{n+1},\xi_n)}
+\sy{\xi_n}{increment or observation whose last two values matter.}
+\sy{\eta_n}{augmented state: the required memory.}
+\mng{Retaining enough history can restore the Markov property.}
+\ck{To disprove: find two positive-probability histories at the same time, with the same present value but different next-event probabilities. Compute both. To augment: from $(a,b)$ only $(c,a)$ is possible, with probability $\PP(\xi_{n+1}=c\mid a,b)$.}
+\use{Memory-dependent updates; squaring/aggregating may lose information. A function of a chain need not be Markov.}
+
+\bx{Complete specification and transition matrix}{L2:13--20}
+\eq{\begin{gathered}(S,\pi_0,P),\quad p_{ij}=\PP(X_{n+1}=j\mid X_n=i)\\
+\pi_0(i)=\PP(X_0=i),\quad p_{ij}\ge0,\quad\sum_jp_{ij}=1
+\end{gathered}}
+\sy{\pi_0}{initial distribution: row vector on the stated state order.}
+\sy{P=(p_{ij})}{transition matrix: row = from, column = to.}
+\mng{Initial probabilities and one-step rules specify a homogeneous chain.}
+\ck{Label row/column order; include every state; sum every row to 1. Homogeneous means no explicit time dependence; state-dependent probabilities are allowed. For a diagram, draw each $i\to j$ with $p_{ij}>0$, including loops.}
+\use{``Give $(S,\pi_0,P)$'' or construct a diagram. Fixed $X_0=i$ means a unit row vector, not $\pi_0=i$. Absorbing $i$: $p_{ii}=1$; boundaries are not automatically absorbing.}
+
+\bx{Transition law from an update rule}{L3:7--15; T2.2,4}
+\eq{p_{ij}=\sum_{z:\,g(i,z)=j}\PP(\zeta=z)}
+\sy{g}{update rule: $X_{n+1}=g(X_n,\zeta_{n+1})$.}
+\sy{\zeta}{fresh random input, independent of history.}
+\mng{Adds probabilities of all inputs giving destination $j$.}
+\use{Inventory, urns, queues. Enumerate inputs; apply the rule including clipping, refill and capacity; then merge equal destinations. Check boundary rows separately.}
+\bx{Count the stopping step correctly}{T3.3}
+\eq{a_i=1+\sum_{j>i}\frac{a_j}{N},\qquad c_i=i+\sum_{j>i}\frac{c_j}{N}}
+\sy{i,N}{current retained roll and number of die faces.}
+\sy{a_i,c_i}{remaining retained count/sum, including current roll.}
+\mng{Only a larger next roll continues an increasing run.}
+\use{A non-increasing roll stops it: $a_N=1,c_N=N$. If the rejected roll counts in $T$, $\E[T]=1+N^{-1}\sum_i a_i$; it does not count in the retained sum.}
+\end{col}\gap%
+\begin{col}{3\quad Finite-time probabilities}
+\bx{Matrix powers and distributions}{L2:15,19; L3:5--6}
+\eq{\begin{gathered}p_{ij}^{(m)}=(P^m)_{ij},\quad P^0=I\\
+p_{ij}^{(r+s)}=\sum_k p_{ik}^{(r)}p_{kj}^{(s)},\quad \pi_{n+m}=\pi_nP^m
+\end{gathered}}
+\sy{m,r,s}{numbers of steps; $m$ is the time gap.}
+\sy{p_{ij}^{(m)}}{$m$-step probability: start at $i$, end at $j$.}
+\sy{\pi_n}{row distribution of $X_n$.}
+\sy{I}{identity matrix: zero-step transition.}
+\mng{Sums all intermediate paths to predict future states.}
+\use{``After $m$ steps'' or ``find the distribution.'' $P^m$ is matrix multiplication, not entrywise powers. For an event, sum its destination entries; for a reward, take their weighted mean.}
+
+\bx{Time-dependent transitions}{L2:15--18; T1.3}
+\eq{P^{a,b}=P^{a,a+1}\cdots P^{b-1,b},\quad\pi_b=\pi_aP^{a,b}}
+\sy{P^{a,b}}{transition matrix from time $a$ to $b$, $a<b$.}
+\mng{Propagates a distribution through changing transition rules.}
+\use{Rules depend on the date/generation. Multiply chronologically; do not use one fixed matrix power.}
+
+\bx{Path and selected-time joint probability}{L2:11; T1.5}
+\eq{\begin{gathered}\PP(X_{t_0}=i_0,\ldots,X_{t_r}=i_r)\\
+=\pi_{t_0}(i_0)\prod_{\ell=1}^{r}p_{i_{\ell-1},i_\ell}^{(t_\ell-t_{\ell-1})}
+\end{gathered}}
+\sy{t_0<\cdots<t_r}{specified observation times.}
+\sy{i_0,\ldots,i_r}{specified states at those times.}
+\mng{Multiplies the initial probability and successive transition factors.}
+\use{A specified path uses one-step factors; gaps use matrix powers. If the starting state is given, omit its initial factor. Sum over unspecified states; never multiply unconditional marginals unless independent.}
+
+\bx{Past state and intermediate state}{L3:6,13; T2.4}
+\eq{\begin{gathered}\PP(X_a=i\mid X_b=j)=\frac{\pi_a(i)p_{ij}^{(b-a)}}{\pi_b(j)}\\
+\PP(X_t=k\mid X_a=i,X_b=j)\\
+=\frac{p_{ik}^{(t-a)}p_{kj}^{(b-t)}}{p_{ij}^{(b-a)}}\quad(a<t<b)
+\end{gathered}}
+\sy{a,t,b}{earlier, intermediate, later times.}
+\mng{Weights possible past/intermediate states by evidence from the endpoint.}
+\use{``Given where it ends, where was it?'' Denominator must be positive; probabilities over the unknown state sum to 1. For inhomogeneous chains, use $P^{a,t},P^{t,b},P^{a,b}$.}
+
+\bx{Hidden Markov model: predict then update}{L3:27--32; T2.5}
+\eq{\begin{gathered}\alpha_0(j)=\frac{\pi_0(j)b_j(y_0)}{\sum_k\pi_0(k)b_k(y_0)}\\
+r_{n+1}(j)=\sum_i\alpha_n(i)p_{ij}\\
+z_{n+1}=\sum_jr_{n+1}(j)b_j(y_{n+1})\\
+\alpha_{n+1}(j)=\frac{r_{n+1}(j)b_j(y_{n+1})}{z_{n+1}}
+\end{gathered}}
+\sy{X_n,Y_n}{hidden state and observed output on the same day.}
+\sy{b_j(y)}{emission probability: $\PP(Y_n=y\mid X_n=j)$.}
+\sy{\alpha_n(j)}{filtered probability: $\PP(X_n=j\mid y_0,\ldots,y_n)$.}
+\sy{r_{n+1}(j)}{predicted state probability before the new observation.}
+\sy{z_{n+1}}{probability of the new observation given earlier evidence.}
+\mng{Transitions predict the state; emissions update it using evidence.}
+\use{Noisy observations of hidden regimes. Given the hidden path, emissions are independent and each uses its same-time state. Normalise after every update.}
+\end{col}\gap%
+\begin{col}{4\quad Models and random walks}
+\bx{Queue with blocked arrivals at capacity}{T2.4}
+\eq{\begin{gathered}p_{i,i+1}=\lambda(1-\mu),\quad p_{i,i-1}=(1-\lambda)\mu\\
+p_{ii}=\lambda\mu+(1-\lambda)(1-\mu)\quad(0<i<N)\\
+p_{01}=\lambda,\ p_{00}=1-\lambda\\p_{N,N-1}=\mu,\ p_{NN}=1-\mu
+\end{gathered}}
+\sy{N}{capacity: maximum queue length.}
+\sy{\lambda,\mu}{arrival and service probabilities per period.}
+\mng{Gives next queue-length probabilities from independent arrival/service indicators.}
+\use{Only for the tutorial rule: no service when initially empty; no arrival when initially full. Other event orders need re-derivation.}
+
+\bx{Colour-flipping urn}{T2.2}
+\eq{p_{i,i-1}=\frac{i}{N},\qquad p_{i,i+1}=\frac{N-i}{N}}
+\sy{N}{fixed number of balls.}
+\sy{i}{current red-ball count; states $0,\ldots,N$.}
+\mng{Uniformly select one ball and switch its colour.}
+\use{Red decreases on a red draw; increases on a green draw. Boundaries force movement: $p_{01}=p_{N,N-1}=1$.}
+
+\bx{Random walk: endpoint and moments}{L3:19--22; T2.1}
+\eq{\begin{gathered}X_n=x_0+\sum_{r=1}^n\xi_r=x_0+2U_n-n\\
+\PP_{x_0}(X_n=j)=\binom{n}{u}p^uq^{n-u},\quad u=\tfrac{n+j-x_0}{2}\\
+\E_{x_0}[X_n]=x_0+n(p-q)\\\Var_{x_0}(X_n)=4npq
+\end{gathered}}
+\sy{x_0}{fixed starting position.}
+\sy{\xi_r}{i.i.d. increment: $+1$ with probability $p$, $-1$ with $q=1-p$.}
+\sy{U_n}{number of upward steps: $\operatorname{Bin}(n,p)$.}
+\sy{u}{upward steps needed to end at $j$.}
+\sy{\binom nu}{binomial coefficient: $n!/[u!(n-u)!]$.}
+\mng{Finds endpoint probabilities and accumulated drift/spread.}
+\use{Unrestricted $\pm1$ walks. Probability is zero unless $u$ is an integer in $[0,n]$. One specified path has probability $p^uq^{n-u}$ without the binomial coefficient. Absorption/reflection changes the endpoint law.}
+
+\bx{General and multidimensional walks}{L3:23--24; T2.3}
+\eq{\begin{gathered}\E[X_n]=x_0+n\mu_\xi,\quad \Var(X_n)=n\sigma_\xi^2\\
+\PP(\eta=\pm1)=\frac1{2d},\quad\PP(\eta=0)=1-\frac1d\\
+\E[x_n]=0,\quad\Var(x_n)=\E[x_n^2]=\frac nd
+\end{gathered}}
+\sy{\mu_\xi,\sigma_\xi^2}{mean and variance of a general i.i.d. scalar increment.}
+\sy{d}{dimension of a simple symmetric lattice walk from the origin.}
+\sy{\eta}{one coordinate of its increment; $x_n$ is that coordinate after $n$ steps.}
+\mng{Accumulates independent increments; one coordinate moves only $1/d$ of the time.}
+\use{Lattice transitions are to $x\pm e_r$ with probability $1/(2d)$, where $e_r$ is coordinate unit vector. Given $\eta\ne0$, signs have probability $1/2$. Also $\E[\|X_n\|^2]=n$.}
+
+\bx{HMM paths and past hidden states}{L3:32; T2.5(d)}
+\eq{w(x_{0:m})=\pi_0(x_0)b_{x_0}(y_0)\prod_{r=1}^m p_{x_{r-1}x_r}b_{x_r}(y_r)}
+\sy{x_{0:m},y_{0:m}}{specified hidden path and observation sequence.}
+\sy{w}{joint probability of that path and those observations.}
+\mng{Scores each possible hidden path using transitions and emissions.}
+\use{Sum $w$ over paths with the requested past state; divide by the sum over all paths. This gives a posterior (smoothing), not the unnormalised joint probability.}
+\end{col}\gap%
+\begin{col}{5\quad First-step analysis}
+\bx{First entry: choose the stopping boundary}{L4:7--9; T3.2}
+\eq{T=\inf\{n\ge0:X_n\in B\}}
+\sy{T}{first hitting time: $\infty$ if the target is never reached.}
+\sy{B}{target/exit set: the states at which the question stops.}
+\mng{Records the first entry, even if the original chain could leave $B$ later.}
+\use{``Before reaching'', ``first entry'', or ``until''. If $X_0\in B$, then $T=0$. Ignore transitions after entry. Distinguish $n\ge0$ from a return time using $n\ge1$.}
+
+\bx{Exit probability}{L4:9--11; T3.2; T4.1}
+\eq{u_i=\sum_jp_{ij}u_j\ (i\notin B),\qquad u_i=g(i)\ (i\in B)}
+\sy{u_i}{probability of the desired exit starting at $i$.}
+\sy{g(i)}{boundary payoff: 1 at desired exits, 0 at other exits.}
+\mng{Averages the same success probability after one transition.}
+\ck{Define $u_i$; list all exit states; set boundary values; write one equation per interior state including self-loops; solve and check $0\le u_i\le1$.}
+\use{Which boundary first? For non-unit jumps, include overshoots (e.g. upper exits at both 5 and 6). With possible non-entry, hitting probabilities are the minimal nonnegative solution.}
+
+\bx{Expected duration, cost or visit count}{L4:9,24--25}
+\eq{\begin{gathered}v_i=1+\sum_jp_{ij}v_j\quad(i\notin B)\\
+a_i=\E_i\!\left[\sum_{n=0}^{T-1}c(X_n)+g(X_T)\right]\\
+a_i=c(i)+\sum_jp_{ij}a_j\quad(i\notin B)
+\end{gathered}}
+\sy{v_i}{expected number of steps until entry, $\E_i[T]$.}
+\sy{a_i}{expected total running and terminal reward.}
+\sy{c(i)}{running reward/cost at state $i$ before stopping.}
+\sy{g(i)}{reward paid on entry: $a_i=g(i)$ on $B$; $v_i=0$ on $B$.}
+\mng{Adds the current contribution, then averages the remaining total.}
+\use{Duration: $c=1,g=0$; visits to $D$: $c(i)=\ind_{\{i\in D\}},g=0$. For initial distribution $\pi_0$, average $\sum_i\pi_0(i)a_i$. Finite-state, certain eventual exit gives a unique finite solution; otherwise check finiteness.}
+
+\bx{Gambler's ruin: hit upper boundary}{L4:15--19}
+\eq{u_i=\begin{cases}\dfrac{i}{N},&p=q=\tfrac12,\\[2pt]\dfrac{1-(q/p)^i}{1-(q/p)^N},&p\ne q.\end{cases}}
+\sy{i}{initial capital, between 0 and $N$.}
+\sy{N}{upper absorbing boundary; lower boundary is 0.}
+\sy{p,q}{up/down probabilities, $q=1-p$, $0<p<1$.}
+\sy{u_i}{probability of hitting $N$ before 0.}
+\mng{Gives upper-exit probability; ruin probability is $1-u_i$.}
+\use{Independent $\pm1$ steps stopped at 0 or $N$. For boundaries $a<b$ and start $x$, substitute $i=x-a$, $N=b-a$. No overshoot allowed.}
+
+\bx{Gambler's ruin: expected duration}{L4:20--23}
+\eq{\E_i[T]=\begin{cases}i(N-i),&p=q=\tfrac12,\\[2pt]\dfrac{Nu_i-i}{p-q},&p\ne q.\end{cases}}
+\sy{T}{first time at either boundary, not time to upper boundary alone.}
+\mng{Gives the mean number of games before either exit.}
+\use{Same assumptions and symbols as above. For profit target $G$ and loss limit $-L$ from 0, set $i=L$, $N=L+G$.}
+\end{col}
+\newpage
+\head{Stopping, martingales, generating functions and branching}{Common symbols continue from page 1\quad 2 of 2}
+\noindent
+\begin{col}{6\quad Verify and build martingales}
+\bx{Conditional expectation rules}{L1:36--37; T3.4--5}
+\eq{\begin{gathered}\E[HU\mid\F_n]=H\E[U\mid\F_n]\\
+U\perp\F_n\ \Longrightarrow\ \E[U\mid\F_n]=\E[U]\\
+\E[\E[U\mid\F_{n+1}]\mid\F_n]=\E[U\mid\F_n]
+\end{gathered}}
+\sy{H}{quantity already known at time $n$ ($\F_n$-measurable).}
+\sy{U}{integrable random quantity; products must be integrable.}
+\sy{\perp}{independence.}
+\mng{Known factors come out; fresh independent quantities become their means.}
+\use{Martingale calculations. The last identity is the tower property for $\F_n\subseteq\F_{n+1}$. Apply linearity before simplifying. A fresh increment is not known yet.}
+
+\bx{Show a process is a martingale}{L4:28; T3.4--5; T4.1--2}
+\eq{\E|M_n|<\infty,\quad\E[M_{n+1}\mid\F_n]=M_n}
+\sy{M_n}{candidate martingale value at time $n$.}
+\sy{\F_n}{filtration: information available through time $n$.}
+\mng{Given current information, the next value has the current mean.}
+\ck{(1) Adapted: express $M_n$ using observations through $n$. (2) Integrable: bound $|M_n|$ or find its finite expectation. (3) Expand $M_{n+1}$, condition on $\F_n$, and recover $M_n$ for every $n$. Equality is a.s.}
+\use{``Verify martingale'' or ``find the correcting constant''. Constant $\E[M_n]$ alone is not enough. Markov and martingale are separate properties.}
+
+\bx{Remove drift; correct a square}{L4:29,36; T3.5; T4.1}
+\eq{\begin{gathered}X_n=x_0+\sum_{r=1}^n\xi_r,\quad Y_n=X_n-n\mu\\
+M_n=Y_n^2-n\sigma^2\\
+\E[Y_{n+1}^2\mid\F_n]=Y_n^2+\sigma^2
+\end{gathered}}
+\sy{\xi_r}{i.i.d. increments, independent of prior history.}
+\sy{\mu,\sigma^2}{increment mean $\E\xi_r$ and variance $\Var(\xi_r)<\infty$.}
+\sy{x_0}{fixed initial position.}
+\sy{Y_n}{centred walk: a martingale after removing drift.}
+\sy{M_n}{square martingale: subtract accumulated increment variance.}
+\mng{Cancels predictable change in a walk or its square.}
+\ck{Use $Y_{n+1}=Y_n+(\xi_{n+1}-\mu)$; expand the square. The cross term vanishes by zero conditional mean; the squared increment contributes $\sigma^2$. Subtract $(n+1)\sigma^2$, not $n\sigma^2$.}
+\use{For $\pm1$ steps, $\mu=p-q$, $\sigma^2=4pq$; fair walk gives $X_n$ and $X_n^2-n$. Mean-zero unequal jump sizes can also give a fair game.}
+
+\bx{Forecast martingale}{T3.4}
+\eq{V_n=\PP(A\mid\F_n)=\E[\ind_A\mid\F_n]}
+\sy{A}{fixed future event, e.g. winning a tournament.}
+\sy{V_n}{updated probability of that event after $n$ observations.}
+\mng{A correctly updated probability has no predictable drift.}
+\ck{Adapted by definition; $0\le V_n\le1$ gives integrability; the tower property gives $\E[V_{n+1}\mid\F_n]=V_n$. For a numerical check, average the possible next forecasts.}
+\use{Tournament forecasts or repeated Bayesian updates. With $r$ wins already, $h$ needed, and $m$ games left: $V_n=\PP(\operatorname{Bin}(m,p)\ge h-r)$. Use the remaining games, not the original total.}
+
+\bx{Branching martingale}{L5:22--23; T4.2}
+\eq{W_n=\frac{Z_n}{m^n},\quad\E[W_{n+1}\mid\F_n]=W_n}
+\sy{Z_n}{population at generation $n$.}
+\sy{m}{offspring mean, $0<m<\infty$.}
+\sy{W_n}{population scaled by expected growth.}
+\mng{Removes the multiplicative drift $\E[Z_{n+1}\mid\F_n]=mZ_n$.}
+\use{Independent reproduction and integrable initial population; $\E|W_n|=\E Z_0$. If $m=1$, the unscaled population is a martingale.}
+\bx{Total family size}{L5:13}
+\eq{\E_k[\sum_{n=0}^{\infty}Z_n]=\frac{k}{1-m}\quad(m<1)}
+\sy{k}{initial ancestors; $m$ is offspring mean.}
+\mng{Adds all generations, including founders.}
+\use{Total family size; exclude founders by subtracting $k$. Its mean is infinite if $k>0,m\ge1$.}
+\end{col}\gap%
+\begin{col}{7\quad Stopping and optional stopping}
+\bx{Verify a stopping time}{L4:7,27; T3.1; T4.2}
+\eq{\{T\le n\}\in\F_n\quad\text{for every }n\ge0}
+\sy{T}{nonnegative integer-valued random time, possibly $\infty$.}
+\mng{By time $n$, the observed history tells whether stopping has occurred.}
+\ck{Express $\{T\le n\}$ using only history events. For $T=\inf\{r\ge r_0:C_r\}$ with $C_r\in\F_r$, it is $\bigcup_{r=r_0}^{n}C_r$ (empty if $n<r_0$). A fixed deadline uses $T\wedge K$.}
+\use{Hitting levels, consecutive decreases, capped observation. To disprove, exhibit two possible paths identical through $n$ but disagreeing on $T\le n$. ``Last visit'' generally needs future information.}
+
+\bx{Operations on stopping times}{T3.1}
+\eq{\begin{gathered}\{T_1\wedge T_2\le n\}=\{T_1\le n\}\cup\{T_2\le n\}\\
+\{T_1\vee T_2\le n\}=\{T_1\le n\}\cap\{T_2\le n\}\\
+\{T_1+T_2\le n\}=\bigcup_{j=0}^{n}\bigl(\{T_1=j\}\cap\{T_2\le n-j\}\bigr)
+\end{gathered}}
+\sy{T_1,T_2}{stopping times for the same discrete-time filtration.}
+\sy{\wedge,\vee}{minimum and maximum.}
+\mng{Minimum, maximum and sum preserve the stopping-time property.}
+\use{$|T_1-T_2|$ need not be a stopping time; use a path counterexample. Both times being at most $n$ proves a maximum bound, not a sum bound.}
+
+\bx{Stopped martingale and OST}{L4:30--32; T4.1--2}
+\eq{\begin{gathered}\E[M_{T\wedge n}]=\E[M_0]\\\E[M_T]=\E[M_0]\quad\text{under OST}\end{gathered}}
+\sy{M_{T\wedge n}}{stopped process: follows $M$, then freezes at $T$.}
+\sy{T\wedge n}{smaller of stopping time and fixed time $n$.}
+\mng{Stopping preserves the mean, provided the passage to $T$ is justified.}
+\ck{$M$ must be a martingale and $T$ a stopping time. The fixed-$n$ identity always holds. For $M_T$, establish $T<\infty$ a.s. and at least one sufficient condition:\par
+(1) $T\le K$ for a fixed finite constant $K$; or\par
+(2) $|M_{T\wedge n}|\le Y$ for all $n$, with $\E Y<\infty$; or\par
+(3) $\E T<\infty$ and $|M_{n+1}-M_n|\le C$ for a fixed finite $C$.}
+\use{Find stopped expectation, exit probabilities or duration. Finite $T$ a.s. alone is insufficient. A bound must hold uniformly in $n$.}
+
+\bx{Prove finite exit and finite mean time}{L4:33; T4.1}
+\eq{\begin{gathered}\PP(T>kL)\le(1-\varepsilon)^k\\
+\E T=\sum_{n=0}^{\infty}\PP(T>n)\le\frac L\varepsilon<\infty
+\end{gathered}}
+\sy{L}{fixed block length in steps.}
+\sy{\varepsilon>0}{uniform lower bound on exit probability in each block, conditional on survival/history.}
+\mng{A repeated positive exit chance gives a geometric tail.}
+\use{Find one exit-forcing sequence of at most $L$ moves valid from every interior state. This establishes $T<\infty$ a.s. and $\E T<\infty$ before invoking OST; do not assume the quantity you are trying to prove finite.}
+
+\bx{Convert OST into the requested answer}{L4:35,37; T4.1}
+\eq{\sum_{b\in B}b\,u_b=x_0,\qquad \E T=\frac{\sum_{b\in B}b^2u_b-x_0^2}{\sigma^2}}
+\sy{B}{all reachable exit values, including overshoots.}
+\sy{u_b}{exit probability $\PP(X_T=b)$.}
+\sy{\sigma^2}{variance of a mean-zero increment, positive and finite.}
+\mng{Stopped first/second moments determine exit constraints and mean duration.}
+\use{Apply OST separately to $X_n$ and $X_n^2-n\sigma^2$, checking conditions for each. With more than two exit values, the mean equation alone does not determine all probabilities; use first-step equations.}
+\end{col}\gap%
+\begin{col}{8\quad Generating functions and sums}\fontsize{5.6}{6.3}\selectfont
+\bx{PGF: encode and recover a distribution}{L5:6; T4.3--4}
+\eq{\begin{gathered}\phi_X(s)=\E[s^X]=\sum_{k=0}^{\infty}\PP(X=k)s^k\\
+\PP(X=k)=[s^k]\phi_X(s)=\frac{\phi_X^{(k)}(0)}{k!}
+\end{gathered}}
+\sy{X}{nonnegative integer-valued random variable.}
+\sy{s}{PGF argument, normally $0\le s\le1$; not a random variable.}
+\sy{\phi_X}{probability generating function of $X$.}
+\sy{[s^k]}{coefficient of $s^k$ in the expansion.}
+\sy{\phi_X^{(k)}}{$k$th derivative with respect to $s$; $0!=1$.}
+\mng{Stores all probabilities as polynomial/power-series coefficients.}
+\use{Find a compound/population distribution. Read coefficients or differentiate at 0; $\PP(X=0)=\phi_X(0)$, $\phi_X(1)=1$.}
+
+\bx{PGF moments}{L5:6,11--12; T5.1}
+\eq{\begin{gathered}\E X=\phi_X'(1),\quad\E[X(X-1)]=\phi_X''(1)\\
+\Var(X)=\phi_X''(1)+\phi_X'(1)-[\phi_X'(1)]^2
+\end{gathered}}
+\sy{\phi_X',\phi_X''}{first and second derivatives of the PGF.}
+\mng{Derivatives at 1 give factorial moments, then ordinary variance.}
+\use{Calculate offspring or compound moments without expanding the entire PGF. Derivatives at 1 are limits from below; require finite corresponding moments. $\phi_X''(1)$ is not $\E[X^2]$.}
+
+\bx{Common count distributions}{L1:17; L5; T2--T5}
+{\setlength{\arraycolsep}{2pt}\eq{\begin{array}{c|c|c|c}X&\phi_X(s)&\E X&\Var(X)\\\hline
+\mathrm{Ber}(p)&1-p+ps&p&p(1-p)\\
+\mathrm{Bin}(r,p)&(1-p+ps)^r&rp&rp(1-p)\\
+\mathrm{Pois}(\lambda)&e^{\lambda(s-1)}&\lambda&\lambda\\
+\mathrm{Geo}(p)&\dfrac{ps}{1-(1-p)s}&1/p&(1-p)/p^2
+\end{array}}}
+\sy{p}{success probability; $0<p\le1$ for geometric.}
+\sy{r}{fixed independent trial count.}
+\sy{\lambda}{Poisson mean count.}
+\mng{Recognises a distribution from its PGF and supplies its moments.}
+\use{Bernoulli: one binary trial; binomial: successes in $r$ trials; Poisson: count; geometric: trials through first success (support starts at 1). Independent Poissons sum to Poisson with summed means.}
+
+\bx{Independent sum and random sum}{L1:38--39; T4.3}
+\eq{\begin{gathered}W=\sum_{r=1}^{N}X_r,\quad\phi_W(s)=\phi_N(\phi_X(s))\\
+\E W=\mu\E N,\quad\Var(W)=\sigma^2\E N+\mu^2\Var(N)\\
+\phi_{X_1+\cdots+X_k}(s)=\prod_{r=1}^k\phi_{X_r}(s)
+\end{gathered}}
+\sy{N}{nonnegative integer count, independent of all summands.}
+\sy{X_r}{i.i.d. nonnegative integer summands for the PGF formula.}
+\sy{\mu,\sigma^2}{mean and variance of each summand.}
+\sy{W}{total, defined as 0 when $N=0$.}
+\mng{Combines random group size and random contributions.}
+\use{Condition on $N$: $\E[W\mid N]=N\mu$, $\Var(W\mid N)=N\sigma^2$, $\E[s^W\mid N]=\phi_X(s)^N$. Count PGF is outside, summand PGF inside. Moment formulas also allow real-valued summands with finite moments.}
+
+\bx{MGF essentials}{L1:23,28,39}
+\eq{\begin{gathered}M_X(t)=\E[e^{tX}],\quad\E[X^k]=M_X^{(k)}(0)\\
+M_{aX+b}(t)=e^{bt}M_X(at),\quad M_{X+Y}=M_XM_Y\\
+M_W(t)=M_N(\log M_X(t))
+\end{gathered}}
+\sy{M_X}{moment-generating function; $t$ is a real argument.}
+\sy{a,b}{fixed multiplier and shift.}
+\mng{Encodes moments via derivatives at 0.}
+\use{MGF questions; sum/product needs independence; random sum uses the assumptions above. Existence near 0 ensures moments and distribution identification. PGF moments use 1; MGF moments use 0.}
+\end{col}\gap%
+\begin{col}{9\quad Branching: growth and extinction}
+\bx{Galton--Watson model}{L5:4--7}
+\eq{Z_{n+1}=\sum_{i=1}^{Z_n}\xi_{n,i},\quad\phi(s)=\E[s^\xi]}
+\sy{Z_n}{population size in generation $n$.}
+\sy{\xi_{n,i}}{offspring count of parent $i$ in generation $n$.}
+\sy{\xi}{common offspring variable: nonnegative integer.}
+\sy{\phi}{offspring PGF; all parents/generations reproduce independently with this law.}
+\mng{Each generation is a random sum; 0 is absorbing.}
+\use{Family trees or infection generations. $Z_0=k$ gives $k$ independent family trees. Transition $i\to j$ has probability $[s^j]\phi(s)^i$.}
+
+\bx{Generation distribution}{L5:7--10; T4.4}
+\eq{\begin{gathered}\phi_0(s)=s,\quad\phi_{n+1}(s)=\phi(\phi_n(s))\\
+G_n(s)=\E[s^{Z_n}\mid Z_0=k]=[\phi_n(s)]^k
+\end{gathered}}
+\sy{\phi_n}{generation-$n$ PGF from one ancestor.}
+\sy{G_n}{generation-$n$ PGF from $k$ ancestors.}
+\sy{k}{fixed initial population.}
+\mng{Composes the offspring law through generations, then combines independent ancestors.}
+\use{Find $\PP(Z_n=j)=[s^j]G_n(s)$; for 0 or 1 evaluate $G_n(0)$ or $G_n'(0)$. Composition is not an ordinary power; ancestor counts give powers.}
+
+\bx{Population mean and variance}{L5:11--12; T5.1}
+\eq{\begin{gathered}m=\phi'(1),\quad\sigma^2=\phi''(1)+m-m^2\\
+\E[Z_n\mid Z_0=k]=km^n\\\Var(Z_n\mid Z_0=k)=kV_n\\
+V_n=\begin{cases}\sigma^2m^{n-1}\dfrac{m^n-1}{m-1},&m\ne1,\\[2pt]n\sigma^2,&m=1.\end{cases}
+\end{gathered}}
+\sy{m,\sigma^2}{offspring mean and finite variance.}
+\sy{V_n}{generation variance from one ancestor; $V_0=0$.}
+\mng{Converts individual reproduction moments into population moments.}
+\use{Formula for $n\ge1$, $m>0$; if $m=0$, later populations are 0. Recursion: $V_{n+1}=\sigma^2m^n+m^2V_n$. Conditional mean is $mZ_n$; conditional variance is $\sigma^2Z_n$.}
+
+\bx{Extinction by / exactly at a generation}{L5:14--15; T5.2,4}
+\eq{\begin{gathered}q_0=0,\quad q_{n+1}=\phi(q_n),\quad q_n=\phi_n(0)\\
+\PP(T\le n\mid Z_0=k)=q_n^k\\
+\PP(T=n\mid Z_0=k)=q_n^k-q_{n-1}^k\quad(n\ge1)
+\end{gathered}}
+\sy{T}{extinction time: first generation with population 0.}
+\sy{q_n}{probability extinct by $n$, from one ancestor.}
+\sy{k}{positive initial population.}
+\mng{Iterates extinction probabilities and differences cumulative probabilities for an exact time.}
+\use{``By'' includes earlier extinction; ``at'' subtracts consecutive cumulative values. Use $q_n^k-q_{n-1}^k$, not $(q_n-q_{n-1})^k$.}
+
+\bx{Eventual extinction and survival}{L5:16--20; T5.2--4}
+\eq{\begin{gathered}q=\min\{s\in[0,1]:\phi(s)=s\}\\\PP_k(T<\infty)=q^k\end{gathered}}
+\sy{q}{eventual extinction probability from one ancestor.}
+\sy{p_0}{zero-offspring probability, $\PP(\xi=0)$.}
+\mng{Chooses the smallest PGF fixed point; survival probability is $1-q^k$.}
+\ck{If $p_0=0$, then $q=0$. If $p_0>0$ and $m\le1$, then $q=1$. If $p_0>0$ and $m>1$, then $0<q<1$. Solve and retain the smallest root in $[0,1]$; 1 is always a root.}
+\use{``Eventually dies out'' or a threshold. Critical extinction a.s. does not imply a bounded extinction time or finite mean time. If $q<1$, $\PP_k(T=\infty)=1-q^k$ and $\E_kT=\infty$.}
+\end{col}\gap%
+\begin{col}{10\quad Branching variants}
+\bx{Random initial population}{T5.1(d)}
+\eq{\begin{gathered}\E Z_n=m^n\E Z_0\\
+\Var(Z_n)=V_n\E Z_0+m^{2n}\Var(Z_0)\\
+G_n(s)=\phi_{Z_0}(\phi_n(s))
+\end{gathered}}
+\sy{\phi_{Z_0}}{PGF of initial population, independent of reproduction.}
+\sy{V_n}{variance from one ancestor (column 9).}
+\mng{Averages over a random number of independent families.}
+\use{Initial population Poisson or another random count; do not replace it by its mean in the variance formula. Extinction by $n$ is $\phi_{Z_0}(q_n)$; eventual extinction is $\phi_{Z_0}(q)$.}
+
+\bx{Generation-dependent reproduction}{T4.5; T5.5}
+\eq{\begin{gathered}G_{n+1}(s)=G_n(f_n(s)),\quad G_0(s)=s\ (Z_0=1)\\
+a_{n+1}=m_na_n,\quad v_{n+1}=m_n^2v_n+s_n^2a_n
+\end{gathered}}
+\sy{f_n}{offspring PGF for a parent in generation $n$.}
+\sy{m_n,s_n^2}{mean and variance of that generation's offspring law.}
+\sy{a_n,v_n}{population mean and variance, initially $1,0$.}
+\mng{Conditions on the current generation using its reproduction law.}
+\use{Changing environments: new offspring PGF goes inside the current population PGF. Do not reverse composition order. For $k$ ancestors, start with $G_0(s)=s^k$, $a_0=k,v_0=0$.}
+
+\bx{Alternating laws: reduce to two generations}{T4.5; T5.5}
+\eq{\begin{gathered}h=f\circ g,\quad h(s)=f(g(s)),\quad M=m_fm_g\\
+S_h^2=m_fs_g^2+m_g^2s_f^2\\
+G_{2r}=h^{\circ r},\quad G_{2r+1}=h^{\circ r}\circ f\\
+\E Z_{2r}=M^r,\quad\E Z_{2r+1}=m_fM^r\\
+\Var(Z_{2r+1})=m_f^2\Var(Z_{2r})+s_f^2M^r
+\end{gathered}}
+\sy{f,g}{offspring PGFs in even and odd generations, respectively.}
+\sy{m_f,m_g;s_f^2,s_g^2}{means and variances of the two laws.}
+\sy{h,M,S_h^2}{two-generation offspring PGF, mean, variance.}
+\sy{h^{\circ r}}{$r$ repeated compositions; zero compositions is identity.}
+\mng{The even-generation population is an ordinary branching process.}
+\use{$Z_0=1$: obtain $\Var(Z_{2r})$ from column 9 with $(n,m,\sigma^2)=(r,M,S_h^2)$. Eventual extinction is the smallest $h(q)=q$ root. Reverse laws: swap $f,g$; mean product stays, variance/root may change.}
+
+\bx{Vaccination: independently prevent each child}{T5.3}
+\eq{\begin{gathered}\widetilde\xi\mid\xi\sim\mathrm{Bin}(\xi,a),\quad a=1-v\\
+\widetilde\phi(s)=\phi(v+as),\quad\widetilde m=am\\
+\widetilde\sigma^2=a^2\sigma^2+avm
+\end{gathered}}
+\sy{v}{vaccination/prevention probability per potential infection.}
+\sy{a}{probability a potential child/infection remains.}
+\sy{\widetilde\xi,\widetilde\phi}{remaining offspring count and its PGF.}
+\mng{Thins each parent's offspring independently.}
+\use{Apply branching formulas with modified moments. Mean tends to 0 iff $am<1$; with positive zero-offspring probability, extinction is certain iff $am\le1$. For $m>0$: $v>1-1/m$ versus $v\ge1-1/m$, with $v\in[0,1]$.}
+
+\bx{Vaccination: suppress a whole parent's offspring}{L5:24--25}
+\eq{\begin{gathered}\widetilde\phi(s)=v+(1-v)\phi(s),\quad\widetilde m=(1-v)m\\\widetilde\sigma^2=(1-v)\sigma^2+v(1-v)m^2\end{gathered}}
+\sy{v}{probability the parent produces zero offspring; otherwise it retains the original law.}
+\mng{Mixes zero offspring with the original distribution.}
+\use{This is the lecture's model, not independent thinning. Here $\PP(\widetilde\xi=0)=v+(1-v)p_0$; for $j>0$, $\PP(\widetilde\xi=j)=(1-v)\PP(\xi=j)$. Same mean threshold, different extinction roots.}
+\end{col}
+\end{document}

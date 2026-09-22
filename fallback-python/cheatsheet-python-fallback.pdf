@@ -1,0 +1,2863 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 5 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842.00 595.00] /Resources << /Font << /F1 7 0 R /F2 8 0 R /F3 9 0 R /F4 10 0 R /F5 11 0 R /F6 12 0 R /FS 13 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 84545 >>
+stream
+0.82 g 13.00 573.90 159.20 9.60 re f 0 g
+BT /F2 7.40 Tf 1 0 0 1 14.50 575.80 Tm (1. PROBABILITY TOOLKIT) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 13.00 565.00 Tm (Conditioning) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 52.46 565.00 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 54.24 565.00 Tm (&) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 58.86 565.00 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 60.64 565.00 Tm (Bayes) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 13.00 555.80 Tm (P\(A|B\)=P\(A) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 55.90 555.80 Tm (\307) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 62.05 555.80 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 64.27 555.80 Tm (B\)/P\(B\)) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 13.00 546.20 Tm (P\(A) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 26.78 546.20 Tm (\307) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 32.92 546.20 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 35.14 546.20 Tm (B\)=P\(A|B\)P\(B\)) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 13.00 538.80 Tm (Total) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 25.89 538.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 27.51 538.80 Tm (probability,) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 55.55 538.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 57.16 538.80 Tm (partition) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 77.79 538.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 79.40 538.80 Tm ({B) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 85.21 537.87 Tm (i) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 86.14 538.80 Tm (}:) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 13.00 529.50 Tm (P\(A\)=) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 34.11 529.50 Tm (\345) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 39.82 528.22 Tm (i) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 41.42 529.50 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 43.64 529.50 Tm (P\(A|B) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 65.43 528.22 Tm (i) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 67.03 529.50 Tm (\)P\(B) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 83.47 528.22 Tm (i) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 85.08 529.50 Tm (\)) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 13.00 522.10 Tm (Bayes) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 29.12 522.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 30.73 522.10 Tm (\(invert) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 46.84 522.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 48.46 522.10 Tm (the) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 56.52 522.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 58.13 522.10 Tm (conditioning\):) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 13.00 512.80 Tm (P\(B) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 26.78 511.52 Tm (k) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 29.98 512.80 Tm (|A\)=P\(A|B) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 67.12 511.52 Tm (k) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 70.33 512.80 Tm (\)P\(B) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 86.77 511.52 Tm (k) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 89.97 512.80 Tm (\)/) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 94.86 512.80 Tm (\345) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 100.56 511.52 Tm (i) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 102.16 512.80 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 104.38 512.80 Tm (P\(A|B) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 126.18 511.52 Tm (i) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 127.78 512.80 Tm (\)P\(B) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 144.22 511.52 Tm (i) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 145.82 512.80 Tm (\)) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 13.00 505.40 Tm (Independence:) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 51.37 505.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 52.99 505.40 Tm (P\(A) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 62.65 505.40 Tm (\307) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 67.11 505.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 68.72 505.40 Tm (B\)=P\(A\)P\(B\).) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 13.00 497.70 Tm (Expectation) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 49.28 497.70 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 51.05 497.70 Tm (&) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 55.68 497.70 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 57.45 497.70 Tm (variance) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 13.00 488.50 Tm (E[aX+bY]=aE[X]+bE[Y]) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 13.00 478.90 Tm (Var\(X\)=E[X) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 54.57 481.62 Tm (2) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 57.77 478.90 Tm (]-\(E[X]\)) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 84.43 481.62 Tm (2) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 13.00 469.30 Tm (Var\(aX+b\)=a) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 59.69 472.02 Tm (2) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 62.89 469.30 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 65.11 469.30 Tm (Var\(X\)) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 13.00 461.90 Tm (Independent) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 45.25 461.90 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 46.86 461.90 Tm (X,Y:) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 57.82 461.90 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 59.43 461.90 Tm (E[XY]=E[X]E[Y]) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 99.58 461.90 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 101.19 461.90 Tm (and) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 110.86 461.90 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 13.00 454.80 Tm (Var\(X+Y\)=Var\(X\)+Var\(Y\).) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 13.00 445.50 Tm (Cov\(X,Y\)=E[XY]-E[X]E[Y]) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 13.00 435.90 Tm (E[1) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 25.45 434.62 Tm (A) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 29.61 435.90 Tm (]=P\(A\)) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 13.00 428.50 Tm (Linearity) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 34.92 428.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 36.53 428.50 Tm (needs) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 52.33 428.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 53.94 428.50 Tm (no) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 60.39 428.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 62.00 428.50 Tm (independence.) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 100.05 428.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 101.66 428.50 Tm (Independent) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 133.91 428.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 135.53 428.50 Tm (variables) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 158.73 428.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 13.00 421.40 Tm (have) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 25.57 421.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 27.19 421.40 Tm (Cov=0) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 44.11 421.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 45.72 421.40 Tm (and) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 55.40 421.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 57.01 421.40 Tm (E[XY]=E[X]E[Y];) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 98.76 421.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 100.38 421.40 Tm (zero) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 111.66 421.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 113.27 421.40 Tm (covariance) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 141.31 421.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 142.93 421.40 Tm (alone) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 157.11 421.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 158.72 421.40 Tm (does) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 171.30 421.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 13.00 414.30 Tm (not) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 21.06 414.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 22.67 414.30 Tm (imply) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 36.21 414.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 37.82 414.30 Tm (independence.) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 13.00 406.60 Tm (Indicators) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 13.00 397.40 Tm (1) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 17.45 396.12 Tm (A^c) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 28.17 397.40 Tm (=1-1) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 44.41 396.12 Tm (A) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 48.56 397.40 Tm (,) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 50.79 397.40 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 53.01 397.40 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 55.24 397.40 Tm (1) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 59.68 396.12 Tm (A\\cap B) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 81.13 397.40 Tm (=1) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 90.25 396.12 Tm (A) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 94.41 397.40 Tm (1) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 98.86 396.12 Tm (B) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 13.00 390.00 Tm (Use) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 23.31 390.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 24.92 390.00 Tm (indicators) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 49.74 390.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 51.36 390.00 Tm (to) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 56.19 390.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 57.80 390.00 Tm (count) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 71.99 390.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 73.60 390.00 Tm (visits,) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 88.10 390.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 89.72 390.00 Tm (successes,) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 118.40 390.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 120.02 390.00 Tm (or) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 125.17 390.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 126.78 390.00 Tm (event) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 140.97 390.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 13.00 382.90 Tm (occurrences;) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 46.20 382.90 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 47.81 382.90 Tm (sum) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 58.77 382.90 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 60.38 382.90 Tm (them) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 73.27 382.90 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 74.89 382.90 Tm (and) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 84.56 382.90 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 86.17 382.90 Tm (take) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 97.13 382.90 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 98.75 382.90 Tm (expectations.) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 13.00 375.20 Tm (Common) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 40.73 375.20 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 42.51 375.20 Tm (distributions) Tj ET
+BT /F2 5.80 Tf 1 0 0 1 13.00 368.20 Tm (Bernoulli\(p\)) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 45.54 368.20 Tm (:) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 47.16 368.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 48.77 368.20 Tm (mean) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 63.27 368.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 64.89 368.20 Tm (p,) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 69.72 368.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 71.34 368.20 Tm (var) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 79.39 368.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 81.00 368.20 Tm (p\(1-p\)) Tj ET
+BT /F2 5.80 Tf 1 0 0 1 13.00 361.20 Tm (Binomial\(n,p\)) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 50.06 361.20 Tm (:) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 51.67 361.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 53.28 361.20 Tm (mean) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 67.79 361.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 69.40 361.20 Tm (np,) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 77.46 361.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 79.07 361.20 Tm (var) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 87.13 361.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 88.74 361.20 Tm (np\(1-p\)) Tj ET
+BT /F2 5.80 Tf 1 0 0 1 13.00 354.20 Tm (Geometric\(p\)) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 49.09 354.20 Tm (:) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 50.71 354.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 52.32 354.20 Tm (P\(X=k\)=\(1-p\)) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 85.84 356.17 Tm (k-1) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 91.64 354.20 Tm (p,) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 96.47 354.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 98.09 354.20 Tm (k) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 100.99 354.20 Tm (\263) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 104.17 354.20 Tm (1;) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 109.01 354.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 110.62 354.20 Tm (mean) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 125.13 354.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 126.74 354.20 Tm (1/p,) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 136.41 354.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 138.03 354.20 Tm (var) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 146.08 354.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 147.69 354.20 Tm (\(1-p\)/p) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 164.77 356.17 Tm (2) Tj ET
+BT /F2 5.80 Tf 1 0 0 1 13.00 347.20 Tm (Poisson\() Tj ET
+BT /FS 5.80 Tf 1 0 0 1 37.49 347.20 Tm (\154) Tj ET
+BT /F2 5.80 Tf 1 0 0 1 40.68 347.20 Tm (\)) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 42.61 347.20 Tm (:) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 44.22 347.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 45.83 347.20 Tm (P=e) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 56.31 349.17 Tm (-\\lambda) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 72.56 347.20 Tm (\154) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 75.74 349.17 Tm (k) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 77.83 347.20 Tm (/k!;) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 85.57 347.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 87.18 347.20 Tm (mean=var=) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 116.52 347.20 Tm (\154) Tj ET
+0.82 g 177.20 573.90 159.20 9.60 re f 0 g
+BT /F2 7.40 Tf 1 0 0 1 178.70 575.80 Tm (2. COND. EXPECTATION) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 177.20 565.60 Tm (E[X|Y]=g\(Y\)) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 207.88 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 209.49 565.60 Tm (is) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 213.68 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 215.29 565.60 Tm (a) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 218.52 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 220.13 565.60 Tm (random) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 239.79 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 241.41 565.60 Tm (variable) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 261.71 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 263.32 565.60 Tm (\(function) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 285.57 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 287.18 565.60 Tm (of) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 292.02 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 293.63 565.60 Tm (Y\).) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 177.20 557.90 Tm (Tower) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 196.05 557.90 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 197.83 557.90 Tm (/) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 199.61 557.90 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 201.39 557.90 Tm (total) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 214.90 557.90 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 216.68 557.90 Tm (expectation) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 177.20 548.70 Tm (E[X]=E[) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 205.87 548.70 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 208.10 548.70 Tm (E[X|Y]) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 231.67 548.70 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 233.90 548.70 Tm (]) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 177.20 539.10 Tm (E[X]=) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 197.87 539.10 Tm (\345) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 203.58 537.82 Tm (y) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 206.78 539.10 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 209.00 539.10 Tm (E[X|Y=y]P\(Y=y\)) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 177.20 531.10 Tm (Law) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 189.65 531.10 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 191.43 531.10 Tm (of) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 197.47 531.10 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 199.25 531.10 Tm (total) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 212.76 531.10 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 214.54 531.10 Tm (variance) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 177.20 521.90 Tm (Var\(X\)=E[Var\(X|Y\)]+Var\(E[X|Y]\)) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 177.20 513.90 Tm (Useful) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 196.76 513.90 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 198.54 513.90 Tm (identities) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 177.20 504.70 Tm (E[Xg\(Y\)|Y]=g\(Y\)E[X|Y]) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 177.20 497.30 Tm (Take) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 190.09 497.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 191.71 497.30 Tm (known) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 208.47 497.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 210.08 497.30 Tm (functions) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 233.29 497.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 234.90 497.30 Tm (of) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 239.74 497.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 241.35 497.30 Tm (Y) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 245.22 497.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 246.83 497.30 Tm (outside) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 265.53 497.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 267.15 497.30 Tm (the) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 275.21 497.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 276.82 497.30 Tm (conditional.) Tj ET
+0.82 g 177.20 487.90 159.20 9.60 re f 0 g
+BT /F2 7.40 Tf 1 0 0 1 178.70 489.80 Tm (3. RANDOM SUMS) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 177.20 479.60 Tm (N) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 181.39 479.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 183.00 479.60 Tm (random) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 202.66 479.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 204.27 479.60 Tm (count,) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 220.07 479.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 221.69 479.60 Tm (X) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 225.55 478.67 Tm (i) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 226.48 479.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 228.09 479.60 Tm (iid,) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 235.51 479.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 237.12 479.60 Tm (independent) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 269.04 479.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 270.65 479.60 Tm (of) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 275.49 479.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 277.10 479.60 Tm (N.) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 282.90 479.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 284.52 479.60 Tm (S) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 288.39 478.67 Tm (N) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 291.40 479.60 Tm (=X) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 298.66 478.67 Tm (1) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 300.98 479.60 Tm (+...+X) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 316.46 478.67 Tm (N) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 319.47 479.60 Tm (.) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 177.20 470.30 Tm (E[S) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 190.54 469.02 Tm (N) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 194.69 470.30 Tm (]=E[N]E[X]) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 177.20 460.70 Tm (Var\(S) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 198.10 459.42 Tm (N) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 202.25 460.70 Tm (\)=E[N]Var\(X\)+Var\(N\)\(E[X]\)) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 299.59 463.42 Tm (2) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 177.20 453.30 Tm (Derive) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 193.96 453.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 195.57 453.30 Tm (by) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 201.69 453.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 203.31 453.30 Tm (conditioning) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 234.25 453.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 235.87 453.30 Tm (on) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 242.32 453.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 243.93 453.30 Tm (N) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 248.12 453.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 249.73 453.30 Tm (\(tower) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 265.84 453.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 267.45 453.30 Tm (+) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 270.84 453.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 272.45 453.30 Tm (total) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 283.42 453.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 285.03 453.30 Tm (variance\).) Tj ET
+0.82 g 177.20 443.90 159.20 9.60 re f 0 g
+BT /F2 7.40 Tf 1 0 0 1 178.70 445.80 Tm (4. GEN. FUNCTIONS \(PGF\)) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 177.20 435.60 Tm (For) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 185.90 435.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 187.51 435.60 Tm (N-valued) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 210.72 435.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 212.33 435.60 Tm (X:) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 177.20 426.30 Tm (\146) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 181.37 426.30 Tm (\(s\)=E[s) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 208.26 429.02 Tm (X) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 212.11 426.30 Tm (]=) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 219.44 426.30 Tm (\345) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 225.15 425.02 Tm (k) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 228.35 426.30 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 230.57 426.30 Tm (P\(X=k\)s) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 260.14 429.02 Tm (k) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 177.20 418.90 Tm (Recover) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 198.79 418.90 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 200.41 418.90 Tm (moments) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 224.26 418.90 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 225.87 418.90 Tm (at) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 230.71 418.90 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 232.32 418.90 Tm (s=1:) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 177.20 409.60 Tm (E[X]=) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 197.87 409.60 Tm (\146) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 202.04 409.60 Tm ('\(1\)) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 177.20 400.00 Tm (Var\(X\)=) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 205.43 400.00 Tm (\146) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 209.60 400.00 Tm (''\(1\)+) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 227.86 400.00 Tm (\146) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 232.02 400.00 Tm ('\(1\)-\() Tj ET
+BT /FS 8.00 Tf 1 0 0 1 249.03 400.00 Tm (\146) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 253.20 400.00 Tm ('\(1\)\)) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 267.54 402.72 Tm (2) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 177.20 392.60 Tm (Sum) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 189.12 392.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 190.74 392.60 Tm (of) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 195.57 392.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 197.19 392.60 Tm (iid:) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 204.60 392.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 206.21 392.60 Tm (PGF) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 218.14 392.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 219.75 392.60 Tm (is) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 223.94 392.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 225.55 392.60 Tm (the) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 233.61 392.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 235.22 392.60 Tm (product;) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 256.18 392.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 257.79 392.60 Tm (used) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 270.37 392.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 271.98 392.60 Tm (in) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 276.49 392.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 278.10 392.60 Tm (branching.) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 177.20 384.90 Tm (MGF) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 191.42 384.90 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 193.20 384.90 Tm (and) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 204.58 384.90 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 206.36 384.90 Tm (random) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 229.83 384.90 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 231.61 384.90 Tm (sums) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 177.20 375.70 Tm (M) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 183.86 374.42 Tm (X) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 187.71 375.70 Tm (\(t\)=E[e) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 212.82 378.42 Tm (tX) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 218.58 375.70 Tm (],) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 223.47 375.70 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 225.69 375.70 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 227.91 375.70 Tm (E[X) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 241.25 378.42 Tm (k) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 244.45 375.70 Tm (]=M) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 258.45 374.42 Tm (X) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 262.29 378.42 Tm (\(k\)) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 269.33 375.70 Tm (\(0\)) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 177.20 366.10 Tm (M) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 183.86 364.82 Tm (aX+b) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 197.79 366.10 Tm (\(t\)=e) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 214.90 368.82 Tm (bt) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 220.34 366.10 Tm (M) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 227.01 364.82 Tm (X) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 230.85 366.10 Tm (\(at\)) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 177.20 358.70 Tm (For) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 185.90 358.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 187.51 358.70 Tm (independent) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 219.44 358.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 221.05 358.70 Tm (X,Y,) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 232.01 358.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 233.62 358.70 Tm (M) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 238.45 357.77 Tm (X+Y) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 246.46 358.70 Tm (=M) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 254.68 357.77 Tm (X) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 257.47 358.70 Tm (M) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 262.30 357.77 Tm (Y) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 265.08 358.70 Tm (.) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 266.70 358.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 268.31 358.70 Tm (For) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 277.01 358.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 278.62 358.70 Tm (W=sum) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 298.44 357.77 Tm (r=1) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 304.59 360.67 Tm (N) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 307.61 358.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 309.22 358.70 Tm (X) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 313.09 357.77 Tm (r) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 314.48 358.70 Tm (,) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 316.09 358.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 177.20 351.60 Tm (M) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 182.03 350.67 Tm (W) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 185.97 351.60 Tm (\(t\)=M) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 199.67 350.67 Tm (N) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 202.68 351.60 Tm (\(log) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 212.35 351.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 213.96 351.60 Tm (M) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 218.79 350.67 Tm (X) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 221.58 351.60 Tm (\(t\)\).) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 177.20 342.30 Tm (E[W]=E[N]E[X],) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 234.75 342.30 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 236.98 342.30 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 177.20 332.70 Tm (Var\(W\)=E[N]Var\(X\)+Var\(N\)\(E[X]\)) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 297.65 335.42 Tm (2) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 177.20 325.30 Tm (N) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 181.39 325.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 183.00 325.30 Tm (is) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 187.19 325.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 188.80 325.30 Tm (independent) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 220.72 325.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 222.34 325.30 Tm (of) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 227.17 325.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 228.79 325.30 Tm (iid) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 234.59 325.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 236.20 325.30 Tm (summands) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 264.56 325.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 266.17 325.30 Tm (X) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 270.04 324.37 Tm (r) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 271.43 325.30 Tm (;) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 273.04 325.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 274.66 325.30 Tm (W=0) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 286.74 325.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 288.36 325.30 Tm (when) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 302.22 325.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 303.83 325.30 Tm (N=0.) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 316.24 325.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 317.85 325.30 Tm (PGF) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 329.78 325.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 177.20 318.20 Tm (moments) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 201.05 318.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 202.66 318.20 Tm (are) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 211.04 318.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 212.66 318.20 Tm (at) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 217.49 318.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 219.11 318.20 Tm (s=1;) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 230.23 318.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 231.84 318.20 Tm (MGF) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 244.73 318.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 246.34 318.20 Tm (moments) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 270.19 318.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 271.80 318.20 Tm (are) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 280.18 318.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 281.80 318.20 Tm (at) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 286.63 318.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 288.25 318.20 Tm (t=0.) Tj ET
+0.82 g 341.40 573.90 159.20 9.60 re f 0 g
+BT /F2 7.40 Tf 1 0 0 1 342.90 575.80 Tm (5. MARKOV CHAINS: SETUP) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 341.40 565.60 Tm (Markov) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 360.41 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 362.02 565.60 Tm (property) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 383.30 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 384.91 565.60 Tm (\(memoryless\):) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 421.64 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 423.26 565.60 Tm (future) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 438.09 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 439.70 565.60 Tm (depends) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 461.95 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 463.56 565.60 Tm (only) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 474.20 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 475.81 565.60 Tm (on) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 482.26 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 341.40 558.50 Tm (present) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 360.74 558.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 362.36 558.50 Tm (state.) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 341.40 549.20 Tm (P\(X) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 354.74 547.92 Tm (n+1) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 364.82 549.20 Tm (=j) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 371.72 549.20 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 373.94 549.20 Tm (|) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 376.18 549.20 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 378.41 549.20 Tm (X) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 383.74 547.92 Tm (n) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 387.26 549.20 Tm (=i,) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 396.38 549.20 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 398.61 549.20 Tm (past\)=P\(X) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 435.73 547.92 Tm (n+1) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 445.81 549.20 Tm (=j|X) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 460.28 547.92 Tm (n) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 463.80 549.20 Tm (=i\)) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 341.40 541.20 Tm (Show) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 358.47 541.20 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 360.25 541.20 Tm (a) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 363.81 541.20 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 365.59 541.20 Tm (process) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 390.13 541.20 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 391.91 541.20 Tm (is) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 397.25 541.20 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 399.03 541.20 Tm (Markov) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 341.40 532.00 Tm (P\(X) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 354.74 530.72 Tm (n+1) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 364.82 532.00 Tm (=j|F) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 378.85 530.72 Tm (n) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 382.37 532.00 Tm (\)=P\(X) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 403.04 530.72 Tm (n+1) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 413.12 532.00 Tm (=j|X) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 427.59 530.72 Tm (n) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 431.11 532.00 Tm (\)) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 341.40 524.60 Tm (\225) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 343.43 524.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 345.04 524.60 Tm (Specify) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 364.06 524.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 365.67 524.60 Tm (the) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 373.73 524.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 375.35 524.60 Tm (state) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 387.92 524.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 389.53 524.60 Tm (and) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 399.21 524.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 400.82 524.60 Tm (possible) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 422.10 524.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 423.71 524.60 Tm (values;) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 442.08 524.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 443.69 524.60 Tm (condition) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 466.91 524.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 468.52 524.60 Tm (on) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 474.97 524.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 476.58 524.60 Tm (a) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 479.81 524.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 481.42 524.60 Tm (history) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 498.50 524.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 348.40 517.60 Tm (ending) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 365.81 517.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 367.42 517.60 Tm (at) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 372.26 517.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 373.87 517.60 Tm (the) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 381.94 517.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 383.55 517.60 Tm (same) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 397.73 517.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 399.34 517.60 Tm (current) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 417.39 517.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 419.00 517.60 Tm (state) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 431.58 517.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 433.19 517.60 Tm (i.) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 341.40 510.60 Tm (\225) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 343.43 510.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 345.04 510.60 Tm (Derive) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 361.80 510.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 363.41 510.60 Tm (the) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 371.47 510.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 373.09 510.60 Tm (full) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 380.50 510.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 382.11 510.60 Tm (next-state) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 407.58 510.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 409.19 510.60 Tm (law) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 417.89 510.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 419.50 510.60 Tm (and) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 429.18 510.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 430.79 510.60 Tm (show) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 444.33 510.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 445.94 510.60 Tm (it) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 448.84 510.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 450.45 510.60 Tm (depends) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 472.70 510.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 474.31 510.60 Tm (only) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 484.95 510.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 486.56 510.60 Tm (on) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 493.01 510.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 494.62 510.60 Tm (i) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 495.91 510.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 348.40 503.60 Tm (\(and) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 360.01 503.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 361.62 503.60 Tm (possibly) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 382.57 503.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 384.18 503.60 Tm (n\).) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 390.95 503.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 392.56 503.60 Tm (Fresh) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 407.39 503.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 409.00 503.60 Tm (randomness) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 440.91 503.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 442.52 503.60 Tm (must) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 455.09 503.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 456.70 503.60 Tm (be) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 463.15 503.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 464.77 503.60 Tm (independent) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 496.69 503.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 498.30 503.60 Tm (of) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 503.14 503.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 348.40 496.60 Tm (the) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 356.46 496.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 358.07 496.60 Tm (history.) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 341.40 489.60 Tm (To) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 348.17 489.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 349.78 489.60 Tm (disprove) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 371.70 489.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 373.31 489.60 Tm (Markov,) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 393.94 489.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 395.55 489.60 Tm (find) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 404.90 489.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 406.51 489.60 Tm (two) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 415.54 489.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 417.15 489.60 Tm (positive-probability) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 465.17 489.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 466.78 489.60 Tm (histories) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 488.38 489.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 489.99 489.60 Tm (with) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 500.30 489.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 341.40 482.50 Tm (the) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 349.46 482.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 351.07 482.50 Tm (same) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 365.26 482.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 366.87 482.50 Tm (present) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 386.21 482.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 387.82 482.50 Tm (value) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 401.69 482.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 403.30 482.50 Tm (but) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 411.36 482.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 412.97 482.50 Tm (different) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 433.93 482.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 435.54 482.50 Tm (next-event) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 462.62 482.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 464.23 482.50 Tm (probabilities.) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 496.79 482.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 341.40 475.40 Tm (A) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 345.27 475.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 346.88 475.40 Tm (function) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 367.19 475.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 368.80 475.40 Tm (of) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 373.64 475.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 375.25 475.40 Tm (a) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 378.48 475.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 380.09 475.40 Tm (Markov) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 399.10 475.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 400.72 475.40 Tm (chain) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 414.58 475.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 416.19 475.40 Tm (need) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 429.09 475.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 430.70 475.40 Tm (not) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 438.76 475.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 440.38 475.40 Tm (be) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 446.83 475.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 448.44 475.40 Tm (Markov;) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 469.06 475.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 470.68 475.40 Tm (augment) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 493.24 475.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 341.40 468.30 Tm (the) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 349.46 468.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 351.07 468.30 Tm (state) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 363.65 468.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 365.26 468.30 Tm (with) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 375.57 468.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 377.19 468.30 Tm (the) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 385.25 468.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 386.86 468.30 Tm (needed) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 406.21 468.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 407.82 468.30 Tm (memory.) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 341.40 460.60 Tm (State,) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 358.83 460.60 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 360.61 460.60 Tm (filtration,) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 387.99 460.60 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 389.76 460.60 Tm (specification) Tj ET
+BT /F2 5.80 Tf 1 0 0 1 341.40 453.60 Tm (S) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 345.27 453.60 Tm (:) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 346.88 453.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 348.49 453.60 Tm (state) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 361.07 453.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 362.68 453.60 Tm (space) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 378.15 453.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 379.77 453.60 Tm (\(list) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 388.79 453.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 390.40 453.60 Tm (of) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 395.24 453.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 396.85 453.60 Tm (possible) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 418.12 453.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 419.73 453.60 Tm (states\)) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 341.40 446.60 Tm (\160) Tj ET
+BT /F2 4.18 Tf 1 0 0 1 344.58 445.67 Tm (0) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 346.91 446.60 Tm (:) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 348.52 446.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 350.13 446.60 Tm (initial) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 363.34 446.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 364.96 446.60 Tm (distribution,) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 394.61 446.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 396.22 446.60 Tm (row) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 405.57 446.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 407.18 446.60 Tm (vector,) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 424.59 446.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 426.20 446.60 Tm (entries) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 443.60 446.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 445.22 446.60 Tm (sum) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 456.17 446.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 457.78 446.60 Tm (to) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 462.62 446.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 464.23 446.60 Tm (1) Tj ET
+BT /F2 5.80 Tf 1 0 0 1 341.40 439.60 Tm (P) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 345.27 439.60 Tm (:) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 346.88 439.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 348.49 439.60 Tm (one-step) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 371.06 439.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 372.67 439.60 Tm (transition) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 396.20 439.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 397.82 439.60 Tm (matrix,) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 415.22 439.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 416.83 439.60 Tm (P) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 420.70 438.67 Tm (ij) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 422.55 439.60 Tm (=P\(X) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 435.61 438.67 Tm (n+1) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 442.69 439.60 Tm (=j|X) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 452.74 438.67 Tm (n) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 455.06 439.60 Tm (=i\)) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 341.40 432.60 Tm (Each) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 354.62 432.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 356.23 432.60 Tm (row) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 365.57 432.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 367.19 432.60 Tm (of) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 372.02 432.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 373.64 432.60 Tm (P) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 377.50 432.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 379.12 432.60 Tm (is) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 383.30 432.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 384.92 432.60 Tm (a) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 388.14 432.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 389.75 432.60 Tm (distribution:) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 419.41 432.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 421.02 432.60 Tm (P) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 424.89 431.67 Tm (ij) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 426.75 432.60 Tm (\263) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 429.93 432.60 Tm (0,) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 434.77 432.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 436.38 432.60 Tm (rows) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 448.62 432.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 450.24 432.60 Tm (sum) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 461.19 432.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 462.80 432.60 Tm (to) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 467.64 432.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 469.25 432.60 Tm (1) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 472.48 432.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 341.40 425.50 Tm (\(stochastic\).) Tj ET
+BT /F2 5.80 Tf 1 0 0 1 341.40 418.40 Tm (F) Tj ET
+BT /F2 4.18 Tf 1 0 0 1 344.94 417.47 Tm (n) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 347.50 418.40 Tm (:) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 349.11 418.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 350.72 418.40 Tm (information/history) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 398.10 418.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 399.71 418.40 Tm (available) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 422.60 418.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 424.21 418.40 Tm (through) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 443.88 418.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 445.49 418.40 Tm (time) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 456.45 418.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 458.06 418.40 Tm (n) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 341.40 409.20 Tm (X) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 346.74 407.92 Tm (n+1) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 356.82 409.20 Tm (=g\(X) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 374.38 407.92 Tm (n) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 377.90 409.20 Tm (,) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 380.13 409.20 Tm (\172) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 384.08 407.92 Tm (n+1) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 394.16 409.20 Tm (\)) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 341.40 401.80 Tm (If) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 344.62 401.80 Tm ( ) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 346.24 401.80 Tm (\172) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 349.10 401.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 350.71 401.80 Tm (is) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 354.90 401.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 356.51 401.80 Tm (fresh) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 369.41 401.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 371.02 401.80 Tm (and) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 380.69 401.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 382.31 401.80 Tm (independent) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 414.23 401.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 415.84 401.80 Tm (of) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 420.68 401.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 422.29 401.80 Tm (the) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 430.35 401.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 431.97 401.80 Tm (history,) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 450.66 401.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 452.27 401.80 Tm (then) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 463.56 401.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 465.17 401.80 Tm (p) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 468.40 400.87 Tm (ij) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 470.25 401.80 Tm (=sum) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 484.59 401.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 486.21 401.80 Tm (over) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 497.49 401.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 341.40 394.70 Tm (z) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 344.30 394.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 345.91 394.70 Tm (with) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 356.22 394.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 357.84 394.70 Tm (g\(i,z\)=j) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 375.40 394.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 377.01 394.70 Tm (of) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 381.85 394.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 383.46 394.70 Tm (P\() Tj ET
+BT /FS 5.80 Tf 1 0 0 1 389.26 394.70 Tm (\172) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 392.13 394.70 Tm (=z\).) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 401.96 394.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 403.57 394.70 Tm (Enumerate) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 431.94 394.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 433.55 394.70 Tm (inputs,) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 450.64 394.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 452.25 394.70 Tm (merge) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 468.69 394.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 470.30 394.70 Tm (equal) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 484.49 394.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 341.40 387.60 Tm (destinations,) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 373.96 387.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 375.57 387.60 Tm (and) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 385.25 387.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 386.86 387.60 Tm (check) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 402.01 387.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 403.62 387.60 Tm (boundary) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 427.80 387.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 429.41 387.60 Tm (rows.) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 341.40 379.90 Tm (n-step) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 360.60 379.90 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 362.38 379.90 Tm (transitions) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 341.40 370.70 Tm (P) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 346.74 373.42 Tm (\(n\)) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 354.09 369.42 Tm (ij) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 357.29 370.70 Tm (=P\(X) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 375.30 369.42 Tm (n) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 378.82 370.70 Tm (=j|X) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 393.29 369.42 Tm (0) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 396.50 370.70 Tm (=i\)=\(P) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 418.73 373.42 Tm (n) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 422.25 370.70 Tm (\)) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 424.91 369.42 Tm (ij) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 341.40 362.70 Tm (Chapman-Kolmogorov) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 341.40 353.50 Tm (P) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 346.74 356.22 Tm (\(m+n\)) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 362.58 352.22 Tm (ij) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 365.78 353.50 Tm (=) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 370.45 353.50 Tm (\345) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 376.15 352.22 Tm (k) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 379.36 353.50 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 381.58 353.50 Tm (P) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 386.92 356.22 Tm (\(m\)) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 395.87 352.22 Tm (ik) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 400.68 353.50 Tm (P) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 406.01 356.22 Tm (\(n\)) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 413.37 352.22 Tm (kj) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 341.40 343.90 Tm (P) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 346.74 346.62 Tm (\(m+n\)) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 362.58 343.90 Tm (=P) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 372.58 346.62 Tm (\(m\)) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 381.54 343.90 Tm (P) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 386.88 346.62 Tm (\(n\)) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 341.40 335.90 Tm (Distribution) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 377.31 335.90 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 379.09 335.90 Tm (at) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 384.78 335.90 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 386.56 335.90 Tm (time) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 399.72 335.90 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 401.50 335.90 Tm (n) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 341.40 326.70 Tm (\160) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 345.79 325.42 Tm (n) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 349.31 326.70 Tm (=) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 353.98 326.70 Tm (\160) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 358.38 325.42 Tm (0) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 361.58 326.70 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 363.80 326.70 Tm (P) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 369.14 329.42 Tm (n) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 341.40 317.10 Tm (P\(X) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 354.74 315.82 Tm (n) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 358.26 317.10 Tm (=j\)=) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 372.49 317.10 Tm (\345) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 378.19 315.82 Tm (i) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 379.79 317.10 Tm ( ) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 382.02 317.10 Tm (\160) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 386.41 315.82 Tm (0) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 389.61 317.10 Tm (\(i\)\(P) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 405.16 319.82 Tm (n) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 408.68 317.10 Tm (\)) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 411.35 315.82 Tm (ij) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 341.40 307.50 Tm (\160) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 345.79 306.22 Tm (b) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 349.31 307.50 Tm (=) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 353.98 307.50 Tm (\160) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 358.38 306.22 Tm (a) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 361.58 307.50 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 363.80 307.50 Tm (P) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 369.14 310.22 Tm (a,b) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 377.46 307.50 Tm (,) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 379.69 307.50 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 381.91 307.50 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 384.13 307.50 Tm (P) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 389.47 310.22 Tm (a,b) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 397.79 307.50 Tm (=P) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 407.80 310.22 Tm (a,a+1) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 422.37 307.50 Tm (...P) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 434.38 310.22 Tm (b-1,b) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 341.40 300.10 Tm (For) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 350.10 300.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 351.71 300.10 Tm (time-dependent) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 392.01 300.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 393.62 300.10 Tm (rules) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 406.19 300.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 407.80 300.10 Tm (multiply) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 427.46 300.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 429.07 300.10 Tm (matrices) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 450.99 300.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 452.60 300.10 Tm (chronologically;) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 492.57 300.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 341.40 293.00 Tm (do) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 347.85 293.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 349.46 293.00 Tm (not) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 357.52 293.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 359.14 293.00 Tm (replace) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 378.15 293.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 379.77 293.00 Tm (them) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 392.66 293.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 394.27 293.00 Tm (by) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 400.40 293.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 402.01 293.00 Tm (one) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 411.68 293.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 413.30 293.00 Tm (fixed) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 425.55 293.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 427.16 293.00 Tm (power.) Tj ET
+0.82 g 505.60 573.90 159.20 9.60 re f 0 g
+BT /F2 7.40 Tf 1 0 0 1 507.10 575.80 Tm (6. PATHS & INFERENCE) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 505.60 565.00 Tm (Joint) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 520.89 565.00 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 522.67 565.00 Tm (path) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 536.18 565.00 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 537.96 565.00 Tm (probability) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 505.60 558.00 Tm (Multiply) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 525.26 558.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 526.87 558.00 Tm (start) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 538.15 558.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 539.76 558.00 Tm (prob) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 551.37 558.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 552.98 558.00 Tm (by) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 559.10 558.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 560.72 558.00 Tm (successive) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 589.08 558.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 590.69 558.00 Tm (one-step) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 613.26 558.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 614.87 558.00 Tm (probs:) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 505.60 548.70 Tm (P\(X) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 518.94 547.42 Tm (0) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 522.14 548.70 Tm (=i) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 529.03 547.42 Tm (0) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 532.24 548.70 Tm (,...,X) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 548.69 547.42 Tm (n) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 552.21 548.70 Tm (=i) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 559.11 547.42 Tm (n) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 562.63 548.70 Tm (\)=) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 569.96 548.70 Tm (\160) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 574.36 547.42 Tm (0) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 577.56 548.70 Tm (\(i) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 582.45 547.42 Tm (0) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 585.65 548.70 Tm (\)) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 588.31 548.70 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 590.54 548.70 Tm (P) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 595.87 547.42 Tm (i_0 i_1) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 613.49 548.70 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 615.71 548.70 Tm (...) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 622.38 548.70 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 624.61 548.70 Tm (P) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 629.94 547.42 Tm (i_{n-1) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 645.63 548.70 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 647.85 548.70 Tm (i) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 650.08 547.42 Tm (n) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 653.59 548.70 Tm (}) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 505.60 539.10 Tm (P\(X) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 518.94 537.82 Tm (t_0) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 527.26 539.10 Tm (=i) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 534.16 537.82 Tm (0) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 537.36 539.10 Tm (,...,X) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 553.81 537.82 Tm (t_r) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 561.18 539.10 Tm (=i) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 568.07 537.82 Tm (r) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 570.31 539.10 Tm (\)=) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 577.65 539.10 Tm (\160) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 582.04 537.82 Tm (t_0) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 590.36 539.10 Tm (\(i) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 595.25 537.82 Tm (0) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 598.45 539.10 Tm (\)) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 601.12 539.10 Tm (\325) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 607.70 537.82 Tm (l) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 609.30 539.10 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 505.60 529.50 Tm (p) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 510.49 528.22 Tm (i_{l-1) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 524.25 529.50 Tm (i) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 526.48 528.22 Tm (l) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 528.08 529.50 Tm (}) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 531.19 532.22 Tm (\(t_l-t_{l-1) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 555.83 529.50 Tm (\)}) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 505.60 522.10 Tm (Use) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 515.91 522.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 517.52 522.10 Tm (one-step) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 540.09 522.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 541.70 522.10 Tm (factors) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 559.11 522.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 560.72 522.10 Tm (for) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 567.49 522.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 569.10 522.10 Tm (consecutive) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 599.73 522.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 601.34 522.10 Tm (times) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 615.20 522.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 616.81 522.10 Tm (and) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 626.48 522.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 628.10 522.10 Tm (matrix) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 643.88 522.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 645.50 522.10 Tm (powers) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 664.19 522.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 505.60 515.00 Tm (for) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 512.37 515.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 513.98 515.00 Tm (gaps;) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 528.17 515.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 529.78 515.00 Tm (sum) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 540.74 515.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 542.35 515.00 Tm (over) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 553.63 515.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 555.24 515.00 Tm (unspecified) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 584.58 515.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 586.19 515.00 Tm (states.) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 505.60 507.30 Tm (Bridge) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 525.87 507.30 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 527.65 507.30 Tm (/) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 529.43 507.30 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 531.21 507.30 Tm (intermediate) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 569.26 507.30 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 571.04 507.30 Tm (state) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 505.60 498.10 Tm (P\(X) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 518.94 496.82 Tm (t) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 520.85 498.10 Tm (=k|X) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 537.55 496.82 Tm (a) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 540.75 498.10 Tm (=i,X) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 555.21 496.82 Tm (b) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 558.73 498.10 Tm (=j\)=p) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 577.85 496.82 Tm (ik) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 582.65 500.82 Tm (\(t-a\)) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 593.53 498.10 Tm (p) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 598.41 496.82 Tm (kj) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 603.22 500.82 Tm (\(b-t\)) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 614.41 498.10 Tm (/p) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 621.52 496.82 Tm (ij) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 624.72 500.82 Tm (\(b-a\)) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 505.60 490.70 Tm (For) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 514.30 490.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 515.91 490.70 Tm (a<t<b) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 530.75 490.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 532.36 490.70 Tm (and) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 542.04 490.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 543.65 490.70 Tm (positive) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 563.31 490.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 564.92 490.70 Tm (denominator,) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 598.77 490.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 600.38 490.70 Tm (weight) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 617.15 490.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 618.76 490.70 Tm (the) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 626.82 490.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 628.43 490.70 Tm (possible) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 649.71 490.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 505.60 483.60 Tm (middle) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 522.68 483.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 524.29 483.60 Tm (state) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 536.87 483.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 538.48 483.60 Tm (by) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 544.60 483.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 546.22 483.60 Tm (evidence) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 569.43 483.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 571.04 483.60 Tm (from) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 582.64 483.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 584.25 483.60 Tm (both) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 595.54 483.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 597.15 483.60 Tm (endpoints;) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 623.91 483.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 625.53 483.60 Tm (the) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 633.59 483.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 635.20 483.60 Tm (answers) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 656.79 483.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 505.60 476.50 Tm (must) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 518.17 476.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 519.78 476.50 Tm (sum) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 530.74 476.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 532.35 476.50 Tm (to) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 537.19 476.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 538.80 476.50 Tm (1.) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 505.60 468.80 Tm (Inferring) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 531.56 468.80 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 533.34 468.80 Tm (the) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 542.94 468.80 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 544.72 468.80 Tm (past) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 557.88 468.80 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 559.65 468.80 Tm (\(Bayes\)) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 505.60 461.80 Tm (To) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 512.37 461.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 513.98 461.80 Tm (find) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 523.33 461.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 524.94 461.80 Tm (P\(X) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 534.61 460.87 Tm (0) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 536.93 461.80 Tm (=i) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 541.61 461.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 543.22 461.80 Tm (|) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 544.73 461.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 546.34 461.80 Tm (X) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 550.21 460.87 Tm (n) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 552.53 461.80 Tm (=j\)) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 559.14 461.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 560.75 461.80 Tm (use) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 570.10 461.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 571.71 461.80 Tm (Bayes) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 587.83 461.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 589.44 461.80 Tm (with) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 599.76 461.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 601.37 461.80 Tm (forward) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 620.70 461.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 622.32 461.80 Tm (probs:) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 505.60 452.50 Tm (P\(X) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 518.94 451.22 Tm (0) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 522.14 452.50 Tm (=i|X) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 536.61 451.22 Tm (n) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 540.13 452.50 Tm (=j\)=) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 554.36 452.50 Tm (\160) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 558.75 451.22 Tm (0) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 561.96 452.50 Tm (\(i\)\(P) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 577.51 455.22 Tm (n) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 581.03 452.50 Tm (\)) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 583.69 451.22 Tm (ij) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 586.89 452.50 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 589.12 452.50 Tm (/) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 591.34 452.50 Tm ( ) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 593.57 452.50 Tm (\345) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 599.27 451.22 Tm (k) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 602.47 452.50 Tm ( ) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 604.70 452.50 Tm (\160) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 609.09 451.22 Tm (0) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 612.29 452.50 Tm (\(k\)\(P) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 630.07 455.22 Tm (n) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 633.59 452.50 Tm (\)) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 636.25 451.22 Tm (kj) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 505.60 445.10 Tm (Numerator:) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 534.61 445.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 536.22 445.10 Tm (prob) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 547.82 445.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 549.44 445.10 Tm (of) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 554.27 445.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 555.89 445.10 Tm (that) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 565.56 445.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 567.17 445.10 Tm (start) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 578.45 445.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 580.07 445.10 Tm (AND) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 592.31 445.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 593.92 445.10 Tm (the) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 601.98 445.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 603.60 445.10 Tm (observation.) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 635.19 445.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 505.60 438.00 Tm (Denominator:) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 540.41 438.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 542.02 438.00 Tm (total) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 552.99 438.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 554.60 438.00 Tm (prob) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 566.20 438.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 567.82 438.00 Tm (of) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 572.65 438.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 574.27 438.00 Tm (the) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 582.33 438.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 583.94 438.00 Tm (observation.) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 505.60 430.30 Tm (Time) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 520.54 430.30 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 522.32 430.30 Tm (to) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 528.36 430.30 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 530.14 430.30 Tm (hit) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 537.96 430.30 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 539.74 430.30 Tm (/) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 541.52 430.30 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 543.30 430.30 Tm (general) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 566.06 430.30 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 567.84 430.30 Tm (recipe) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 505.60 423.30 Tm (\225) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 507.63 423.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 509.24 423.30 Tm (Condition) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 533.74 423.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 535.35 423.30 Tm (on) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 541.80 423.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 543.42 423.30 Tm (the) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 551.48 423.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 553.09 423.30 Tm (first) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 562.43 423.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 564.05 423.30 Tm (step) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 575.01 423.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 576.62 423.30 Tm (\(see) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 587.90 423.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 589.51 423.30 Tm (first-step) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 611.75 423.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 613.36 423.30 Tm (analysis\).) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 505.60 416.30 Tm (\225) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 507.63 416.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 509.24 416.30 Tm (For) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 517.94 416.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 519.55 416.30 Tm ('ever) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 531.94 416.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 533.56 416.30 Tm (reach') Tj ET
+BT /F1 5.80 Tf 1 0 0 1 549.17 416.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 550.78 416.30 Tm (or) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 555.94 416.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 557.55 416.30 Tm ('reach) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 573.16 416.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 574.78 416.30 Tm (before':) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 593.94 416.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 595.55 416.30 Tm (set) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 603.29 416.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 604.90 416.30 Tm (up) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 611.35 416.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 612.96 416.30 Tm (linear) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 627.14 416.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 628.76 416.30 Tm (equations) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 653.91 416.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 655.52 416.30 Tm (in) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 660.03 416.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 512.60 409.30 Tm (the) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 520.66 409.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 522.27 409.30 Tm (unknown) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 545.49 409.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 547.10 409.30 Tm (probabilities.) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 505.60 402.30 Tm (\225) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 507.63 402.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 509.24 402.30 Tm (Absorbing) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 535.35 402.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 536.97 402.30 Tm (states) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 552.44 402.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 554.05 402.30 Tm (give) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 564.69 402.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 566.30 402.30 Tm (boundary) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 590.48 402.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 592.10 402.30 Tm (conditions.) Tj ET
+0.82 g 669.80 573.90 159.20 9.60 re f 0 g
+BT /F2 7.40 Tf 1 0 0 1 671.30 575.80 Tm (7. HIDDEN MARKOV \(FILTER\)) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 669.80 565.60 Tm (Hidden) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 688.17 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 689.79 565.60 Tm (chain) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 703.65 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 705.26 565.60 Tm (X) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 709.13 564.67 Tm (n) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 711.45 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 713.06 565.60 Tm (\(matrix) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 730.78 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 732.40 565.60 Tm (P\),) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 739.81 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 741.42 565.60 Tm (observations) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 774.30 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 775.91 565.60 Tm (Y) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 779.78 564.67 Tm (n) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 782.10 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 783.72 565.60 Tm (with) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 794.03 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 795.64 565.60 Tm (emission) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 818.52 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 669.80 558.50 Tm (P\(Y|X\)=e) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 693.39 557.57 Tm (x) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 695.48 558.50 Tm (\(y\).) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 703.85 558.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 705.46 558.50 Tm (Track) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 719.96 558.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 721.58 558.50 Tm (belief) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 735.44 558.50 Tm ( ) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 737.05 558.50 Tm (\160) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 740.24 557.57 Tm (n) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 742.56 558.50 Tm (\(i\)=P\(X) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 760.76 557.57 Tm (n) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 763.09 558.50 Tm (=i) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 767.76 558.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 769.37 558.50 Tm (|) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 770.88 558.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 772.49 558.50 Tm (Y) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 776.36 557.57 Tm (1..n) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 783.33 558.50 Tm (\).) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 669.80 550.80 Tm (Predict) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 691.50 550.80 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 693.28 550.80 Tm (\(time) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 708.56 550.80 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 710.34 550.80 Tm (update\)) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 669.80 541.60 Tm (pred\(j\)=) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 699.36 541.60 Tm (\345) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 705.06 540.32 Tm (i) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 706.67 541.60 Tm ( ) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 708.89 541.60 Tm (\160) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 713.28 540.32 Tm (n-1) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 721.92 541.60 Tm (\(i\)P) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 734.81 540.32 Tm (ij) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 669.80 533.60 Tm (Update) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 691.49 533.60 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 693.27 533.60 Tm (\(observation) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 731.68 533.60 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 733.45 533.60 Tm (Y) Tj ET
+BT /F2 4.61 Tf 1 0 0 1 737.72 532.58 Tm (n) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 740.54 533.60 Tm (=y\)) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 669.80 524.40 Tm (\160) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 674.19 523.12 Tm (n) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 677.71 524.40 Tm (\(j\)) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 685.26 524.40 Tm (\265) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 690.97 524.40 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 693.19 524.40 Tm (pred\(j\)) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 718.08 524.40 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 720.30 524.40 Tm (e) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 724.75 523.12 Tm (j) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 726.35 524.40 Tm (\(y\)) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 669.80 514.80 Tm (\160) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 674.19 513.52 Tm (n) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 677.71 514.80 Tm (\(j\)=pred\(j\)e) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 719.27 513.52 Tm (j) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 720.87 514.80 Tm (\(y\)/) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 732.87 514.80 Tm (\345) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 738.58 513.52 Tm (k) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 741.78 514.80 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 744.00 514.80 Tm (pred\(k\)e) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 775.56 513.52 Tm (k) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 778.77 514.80 Tm (\(y\)) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 669.80 507.40 Tm (Then) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 683.02 507.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 684.63 507.40 Tm (normalize) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 709.77 507.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 711.38 507.40 Tm (so) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 717.50 507.40 Tm ( ) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 719.12 507.40 Tm (\160) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 722.30 506.47 Tm (n) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 724.62 507.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 726.24 507.40 Tm (sums) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 740.09 507.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 741.70 507.40 Tm (to) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 746.54 507.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 748.15 507.40 Tm (1.) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 752.99 507.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 754.60 507.40 Tm (Repeat) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 773.30 507.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 774.92 507.40 Tm (predict-update) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 811.99 507.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 813.60 507.40 Tm (per) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 821.98 507.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 669.80 500.30 Tm (observation.) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 669.80 492.60 Tm (Prediction) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 701.10 492.60 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 702.88 492.60 Tm (of) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 708.92 492.60 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 710.70 492.60 Tm (next) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 723.85 492.60 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 725.63 492.60 Tm (/) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 727.41 492.60 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 729.19 492.60 Tm (obs) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 669.80 483.40 Tm (P\(X) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 683.14 482.12 Tm (n+1) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 693.22 483.40 Tm (=j|Y) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 707.69 482.12 Tm (1..n) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 717.62 483.40 Tm (\)=) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 724.95 483.40 Tm (\345) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 730.66 482.12 Tm (i) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 732.26 483.40 Tm ( ) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 734.48 483.40 Tm (\160) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 738.88 482.12 Tm (n) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 742.39 483.40 Tm (\(i\)P) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 755.28 482.12 Tm (ij) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 669.80 473.80 Tm (P\(Y) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 683.14 472.52 Tm (n+1) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 693.22 473.80 Tm (=y|Y) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 709.92 472.52 Tm (1..n) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 719.84 473.80 Tm (\)=) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 727.18 473.80 Tm (\345) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 732.88 472.52 Tm (j) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 734.48 473.80 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 736.71 473.80 Tm (pred) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 754.04 472.52 Tm (n+1) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 764.13 473.80 Tm (\(j\)e) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 776.13 472.52 Tm (j) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 777.73 473.80 Tm (\(y\)) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 669.80 465.80 Tm (HMM) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 685.08 465.80 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 686.86 465.80 Tm (path) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 700.37 465.80 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 702.15 465.80 Tm (probability) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 669.80 456.60 Tm (w\(x) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 683.14 455.32 Tm (0:m) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 693.38 456.60 Tm (\)=) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 700.71 456.60 Tm (\160) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 705.11 455.32 Tm (0) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 708.31 456.60 Tm (\(x) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 715.42 455.32 Tm (0) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 718.62 456.60 Tm (\)b) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 726.17 455.32 Tm (x_0) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 735.78 456.60 Tm (\(y) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 742.89 455.32 Tm (0) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 746.10 456.60 Tm (\)) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 748.76 456.60 Tm (\325) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 755.34 455.32 Tm (r=1) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 764.15 459.32 Tm (m) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 769.27 456.60 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 771.50 456.60 Tm (p) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 776.38 455.32 Tm (x_{r-1) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 792.39 456.60 Tm (x) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 796.84 455.32 Tm (r) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 799.08 456.60 Tm (}b) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 807.08 455.32 Tm (x_r) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 815.73 456.60 Tm (\(y) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 822.84 455.32 Tm (r) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 825.08 456.60 Tm (\)) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 669.80 449.20 Tm (To) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 676.57 449.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 678.18 449.20 Tm (smooth) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 697.20 449.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 698.81 449.20 Tm (a) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 702.04 449.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 703.65 449.20 Tm (hidden) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 721.06 449.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 722.67 449.20 Tm (past,) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 735.25 449.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 736.86 449.20 Tm (sum) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 747.82 449.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 749.43 449.20 Tm (w) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 753.62 449.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 755.23 449.20 Tm (over) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 766.51 449.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 768.12 449.20 Tm (paths) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 782.31 449.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 783.92 449.20 Tm (with) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 794.23 449.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 795.85 449.20 Tm (the) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 803.91 449.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 669.80 442.10 Tm (requested) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 695.59 442.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 697.20 442.10 Tm (hidden) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 714.62 442.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 716.23 442.10 Tm (state) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 728.80 442.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 730.42 442.10 Tm (and) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 740.09 442.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 741.70 442.10 Tm (divide) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 756.85 442.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 758.46 442.10 Tm (by) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 764.59 442.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 766.20 442.10 Tm (the) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 774.26 442.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 775.88 442.10 Tm (sum) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 786.83 442.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 788.44 442.10 Tm (over) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 799.73 442.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 801.34 442.10 Tm (all) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 807.14 442.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 808.75 442.10 Tm (paths.) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 824.55 442.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 669.80 435.00 Tm (This) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 680.76 435.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 682.37 435.00 Tm (is) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 686.56 435.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 688.17 435.00 Tm (a) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 691.39 435.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 693.01 435.00 Tm (posterior,) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 717.18 435.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 718.79 435.00 Tm (not) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 726.85 435.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 728.47 435.00 Tm (an) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 734.92 435.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 736.53 435.00 Tm (unnormalised) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 771.34 435.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 772.95 435.00 Tm (joint) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 783.59 435.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 785.20 435.00 Tm (probability.) Tj ET
+0.82 g 669.80 425.60 159.20 9.60 re f 0 g
+BT /F2 7.40 Tf 1 0 0 1 671.30 427.50 Tm (7b. STATIONARY DIST.) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 669.80 417.30 Tm (A) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 673.67 417.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 675.28 417.30 Tm (distribution) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 703.32 417.30 Tm ( ) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 704.94 417.30 Tm (\160) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 708.12 417.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 709.73 417.30 Tm (\(row) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 721.01 417.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 722.62 417.30 Tm (vector\)) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 740.35 417.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 741.96 417.30 Tm (is) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 746.15 417.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 747.76 417.30 Tm (stationary) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 772.90 417.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 774.51 417.30 Tm (if) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 777.41 417.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 779.03 417.30 Tm (it) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 781.93 417.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 783.54 417.30 Tm (is) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 787.73 417.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 789.34 417.30 Tm (unchanged) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 818.04 417.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 819.65 417.30 Tm (by) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 825.77 417.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 669.80 410.20 Tm (one) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 679.47 410.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 681.09 410.20 Tm (step:) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 669.80 400.90 Tm (\160) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 674.19 400.90 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 676.42 400.90 Tm (P=) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 686.42 400.90 Tm (\160) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 690.82 400.90 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 693.04 400.90 Tm (,) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 695.26 400.90 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 697.49 400.90 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 699.71 400.90 Tm ( ) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 701.94 400.90 Tm (\345) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 707.64 399.62 Tm (i) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 709.24 400.90 Tm ( ) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 711.47 400.90 Tm (\160) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 715.86 399.62 Tm (i) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 717.46 400.90 Tm (=1) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 669.80 393.50 Tm (Solve) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 684.31 393.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 685.92 393.50 Tm (the) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 693.98 393.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 695.59 393.50 Tm (linear) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 709.77 393.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 711.39 393.50 Tm (system) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 729.75 393.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 731.37 393.50 Tm (\(drop) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 744.90 393.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 746.52 393.50 Tm (one) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 756.19 393.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 757.80 393.50 Tm (balance) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 778.11 393.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 779.73 393.50 Tm (equation,) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 803.59 393.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 805.20 393.50 Tm (use) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 814.55 393.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 669.80 386.40 Tm (normalization\).) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 707.83 386.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 709.44 386.40 Tm (For) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 718.14 386.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 719.76 386.40 Tm (irreducible) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 746.50 386.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 748.12 386.40 Tm (aperiodic) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 771.65 386.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 773.26 386.40 Tm (chains) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 790.02 386.40 Tm ( ) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 791.63 386.40 Tm (\160) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 794.82 385.47 Tm (n) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 797.14 386.40 Tm (\256) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 802.87 386.40 Tm (\160) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 806.05 386.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 807.66 386.40 Tm (as) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 813.79 386.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 815.40 386.40 Tm (n) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 818.62 386.40 Tm (\256) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 824.35 386.40 Tm (\245) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 828.48 386.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 669.80 379.30 Tm (regardless) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 696.87 379.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 698.49 379.30 Tm (of) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 703.32 379.30 Tm ( ) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 704.94 379.30 Tm (\160) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 708.12 378.37 Tm (0) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 710.44 379.30 Tm (.) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 669.80 372.20 Tm (2-state) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 687.53 372.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 689.14 372.20 Tm (chain) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 703.00 372.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 704.62 372.20 Tm (P=[[1-a,a],[b,1-b]]:) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 669.80 362.90 Tm (\160) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 674.19 362.90 Tm (=\(b/\(a+b\),) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 710.20 362.90 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 712.42 362.90 Tm (a/\(a+b\)\)) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 669.80 354.90 Tm (Worked) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 693.27 354.90 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 695.05 354.90 Tm (filter) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 708.92 354.90 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 710.70 354.90 Tm (step) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 669.80 347.90 Tm (P=[[.7,.3],[.4,.6]],) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 712.53 347.90 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 714.14 347.90 Tm (emit) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 725.10 347.90 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 726.71 347.90 Tm (e) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 729.93 346.97 Tm (0) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 732.26 347.90 Tm (=\(.9,.1\)) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 750.79 347.90 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 752.41 347.90 Tm (e) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 755.63 346.97 Tm (1) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 757.95 347.90 Tm (=\(.2,.8\),) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 778.10 347.90 Tm ( ) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 779.71 347.90 Tm (\160) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 782.90 346.97 Tm (0) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 785.22 347.90 Tm (=\(.5,.5\).) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 805.37 347.90 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 806.98 347.90 Tm (Obs) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 817.62 347.90 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 819.23 347.90 Tm (y=0) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 828.74 347.90 Tm ( ) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 669.80 340.80 Tm (\256) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 675.52 340.80 Tm ( ) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 677.14 340.80 Tm (\160) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 680.32 340.80 Tm (=\(.846,.154\).) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842.00 595.00] /Resources << /Font << /F1 7 0 R /F2 8 0 R /F3 9 0 R /F4 10 0 R /F5 11 0 R /F6 12 0 R /FS 13 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 61084 >>
+stream
+0.82 g 13.00 573.90 159.20 9.60 re f 0 g
+BT /F2 7.40 Tf 1 0 0 1 14.50 575.80 Tm (8. STANDARD MODELS) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 13.00 565.00 Tm (Random) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 38.60 565.00 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 40.38 565.00 Tm (walk) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 13.00 558.00 Tm (Steps) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 27.83 558.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 29.44 558.00 Tm (Z) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 32.99 557.07 Tm (i) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 33.91 558.00 Tm (=+1) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 43.91 558.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 45.53 558.00 Tm (w.p.) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 56.16 558.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 57.78 558.00 Tm (p,) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 62.61 558.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 64.22 558.00 Tm (-1) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 69.38 558.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 70.99 558.00 Tm (w.p.) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 81.63 558.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 83.24 558.00 Tm (q=1-p.) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 99.85 558.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 101.46 558.00 Tm (S) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 105.33 557.07 Tm (n) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 107.65 558.00 Tm (=S) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 114.91 557.07 Tm (0) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 117.23 558.00 Tm (+Z) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 124.16 557.07 Tm (1) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 126.48 558.00 Tm (+...+Z) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 141.64 557.07 Tm (n) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 143.96 558.00 Tm (.) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 13.00 548.70 Tm (E[S) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 26.34 547.42 Tm (n) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 29.86 548.70 Tm (]=S) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 42.53 547.42 Tm (0) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 45.73 548.70 Tm (+n\(p-q\)) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 13.00 539.10 Tm (Var\(S) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 33.90 537.82 Tm (n) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 37.42 539.10 Tm (\)=n\(1-\(p-q\)) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 77.18 541.82 Tm (2) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 80.39 539.10 Tm (\)=4npq) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 13.00 531.70 Tm (Position) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 33.63 531.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 35.24 531.70 Tm (after) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 46.85 531.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 48.46 531.70 Tm (n) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 51.69 531.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 53.30 531.70 Tm (steps) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 67.16 531.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 68.77 531.70 Tm (with) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 79.09 531.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 80.70 531.70 Tm (R) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 84.89 531.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 86.50 531.70 Tm (rights:) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 102.29 531.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 103.90 531.70 Tm (S) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 107.77 530.77 Tm (n) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 110.09 531.70 Tm (=S) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 117.35 530.77 Tm (0) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 119.67 531.70 Tm (+2R-n,) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 137.24 531.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 138.85 531.70 Tm (R~Bin\(n,p\).) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 13.00 522.40 Tm (P\(S) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 26.34 521.12 Tm (n) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 29.86 522.40 Tm (=S) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 39.86 521.12 Tm (0) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 43.07 522.40 Tm (+2r-n\)=C\(n,r\)p) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 96.40 525.12 Tm (r) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 98.64 522.40 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 100.87 522.40 Tm (q) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 105.75 525.12 Tm (n-r) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 13.00 514.40 Tm (Inventory) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 41.81 514.40 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 43.59 514.40 Tm (\(s,S\)) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 57.45 514.40 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 59.23 514.40 Tm (model) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 13.00 507.40 Tm (Restock) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 33.95 507.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 35.56 507.40 Tm (to) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 40.40 507.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 42.01 507.40 Tm (S) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 45.88 507.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 47.49 507.40 Tm (when) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 61.35 507.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 62.97 507.40 Tm (stock) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 76.50 507.40 Tm ( ) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 78.12 507.40 Tm (\243) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 81.30 507.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 82.91 507.40 Tm (s;) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 87.43 507.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 89.04 507.40 Tm (demand) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 109.99 507.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 111.61 507.40 Tm (D) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 115.79 506.47 Tm (n) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 118.12 507.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 119.73 507.40 Tm (iid.) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 13.00 498.10 Tm (X) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 18.34 496.82 Tm (n+1) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 28.42 498.10 Tm (=max\(X) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 57.10 496.82 Tm (n) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 60.62 498.10 Tm (-D) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 69.06 496.82 Tm (n+1) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 79.15 498.10 Tm (,0\)) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 88.48 498.10 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 90.71 498.10 Tm (then) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 107.59 498.10 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 109.82 498.10 Tm (reorder) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 137.83 498.10 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 140.05 498.10 Tm (rule) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 13.00 490.70 Tm (Build) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 25.89 490.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 27.51 490.70 Tm (P) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 31.37 490.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 32.99 490.70 Tm (from) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 44.59 490.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 46.20 490.70 Tm (demand) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 67.15 490.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 68.77 490.70 Tm (distribution;) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 98.42 490.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 100.03 490.70 Tm (state) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 112.61 490.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 114.22 490.70 Tm (=) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 117.61 490.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 119.22 490.70 Tm (stock) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 132.76 490.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 134.37 490.70 Tm (level.) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 13.00 483.00 Tm (Queue) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 32.92 483.00 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 34.70 483.00 Tm (model) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 13.00 476.00 Tm (X) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 16.87 475.07 Tm (n) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 19.19 476.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 20.80 476.00 Tm (=) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 24.19 476.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 25.80 476.00 Tm (customers) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 52.55 476.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 54.16 476.00 Tm (in) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 58.68 476.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 60.29 476.00 Tm (system.) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 80.27 476.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 81.88 476.00 Tm (Arrivals) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 101.21 476.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 102.83 476.00 Tm (A) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 106.70 475.07 Tm (n) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 109.02 476.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 110.63 476.00 Tm (iid,) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 118.04 476.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 119.65 476.00 Tm (one) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 129.33 476.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 130.94 476.00 Tm (served) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 148.35 476.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 149.96 476.00 Tm (per) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 158.34 476.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 13.00 468.90 Tm (step:) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 13.00 459.60 Tm (X) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 18.34 458.32 Tm (n+1) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 28.42 459.60 Tm (=max\(X) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 57.10 458.32 Tm (n) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 60.62 459.60 Tm (-1,0\)+A) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 87.52 458.32 Tm (n+1) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 13.00 452.20 Tm (For) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 21.70 452.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 23.31 452.20 Tm (capacity) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 44.59 452.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 46.20 452.20 Tm (N) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 50.39 452.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 52.00 452.20 Tm (with) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 62.31 452.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 63.92 452.20 Tm (independent) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 95.85 452.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 97.46 452.20 Tm (arrival) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 113.25 452.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 114.86 452.20 Tm (probability) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 141.29 452.20 Tm ( ) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 142.90 452.20 Tm (\154) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 146.09 452.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 147.70 452.20 Tm (and) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 157.37 452.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 13.00 445.10 Tm (service) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 31.37 445.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 32.98 445.10 Tm (probability) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 59.41 445.10 Tm ( ) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 61.02 445.10 Tm (\155) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 64.36 445.10 Tm (:) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 65.98 445.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 67.59 445.10 Tm (interior) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 85.31 445.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 86.93 445.10 Tm (p) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 90.15 444.17 Tm (i,i+1) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 97.93 445.10 Tm (=) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 101.31 445.10 Tm (\154) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 104.50 445.10 Tm (\(1-) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 111.59 445.10 Tm (\155) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 114.93 445.10 Tm (\),) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 118.47 445.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 120.08 445.10 Tm (p) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 123.31 444.17 Tm (i,i-1) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 130.04 445.10 Tm (=\(1-) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 140.51 445.10 Tm (\154) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 143.69 445.10 Tm (\)) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 145.63 445.10 Tm (\155) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 148.97 445.10 Tm (,) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 150.58 445.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 13.00 438.00 Tm (p) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 16.22 437.07 Tm (ii) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 18.08 438.00 Tm (=) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 21.47 438.00 Tm (\154) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 24.65 438.00 Tm (\155) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 27.99 438.00 Tm (+\(1-) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 38.47 438.00 Tm (\154) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 41.65 438.00 Tm (\)\(1-) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 50.67 438.00 Tm (\155) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 54.01 438.00 Tm (\);) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 57.55 438.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 59.17 438.00 Tm (boundaries) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 87.86 438.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 89.47 438.00 Tm (p) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 92.70 437.07 Tm (01) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 97.34 438.00 Tm (=) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 100.73 438.00 Tm (\154) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 103.91 438.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 105.52 438.00 Tm (and) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 115.20 438.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 116.81 438.00 Tm (p) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 120.04 437.07 Tm (N,N-1) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 130.94 438.00 Tm (=) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 134.33 438.00 Tm (\155) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 137.67 438.00 Tm (.) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 13.00 430.30 Tm (Colour-flipping) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 58.86 430.30 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 60.64 430.30 Tm (urn) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 13.00 421.10 Tm (p) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 17.89 419.82 Tm (i,i-1) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 27.81 421.10 Tm (=i/N,) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 44.93 421.10 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 47.16 421.10 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 49.38 421.10 Tm (p) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 54.27 419.82 Tm (i,i+1) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 65.64 421.10 Tm (=\(N-i\)/N) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 13.00 413.70 Tm (i) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 14.29 413.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 15.90 413.70 Tm (is) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 20.09 413.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 21.70 413.70 Tm (the) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 29.76 413.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 31.37 413.70 Tm (current) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 49.42 413.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 51.04 413.70 Tm (red-ball) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 70.37 413.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 71.99 413.70 Tm (count) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 86.17 413.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 87.79 413.70 Tm (in) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 92.30 413.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 93.91 413.70 Tm (a) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 97.13 413.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 98.75 413.70 Tm (fixed) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 111.00 413.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 112.61 413.70 Tm (population) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 139.37 413.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 140.98 413.70 Tm (N;) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 146.78 413.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 13.00 406.60 Tm (boundaries) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 41.69 406.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 43.30 406.60 Tm (force) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 56.20 406.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 57.81 406.60 Tm (p) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 61.04 405.67 Tm (01) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 65.68 406.60 Tm (=p) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 72.29 405.67 Tm (N,N-1) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 83.19 406.60 Tm (=1.) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 13.00 398.90 Tm (General) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 36.83 398.90 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 38.61 398.90 Tm (/) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 40.39 398.90 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 42.17 398.90 Tm (multidimensional) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 94.80 398.90 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 96.58 398.90 Tm (walk) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 13.00 389.70 Tm (E[S) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 26.34 388.42 Tm (n) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 29.86 389.70 Tm (]=S) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 42.53 388.42 Tm (0) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 45.73 389.70 Tm (+n) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 55.29 389.70 Tm (\155) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 59.90 388.42 Tm (\\) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 61.50 389.70 Tm (xi,) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 70.40 389.70 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 72.62 389.70 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 74.84 389.70 Tm (Var\(S) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 95.74 388.42 Tm (n) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 99.26 389.70 Tm (\)=n) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 111.48 389.70 Tm (\163) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 116.31 388.42 Tm (\\) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 117.91 389.70 Tm (xi) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 124.58 392.42 Tm (2) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 13.00 382.30 Tm (For) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 21.70 382.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 23.31 382.30 Tm (a) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 26.54 382.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 28.15 382.30 Tm (simple) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 44.91 382.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 46.52 382.30 Tm (symmetric) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 72.94 382.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 74.55 382.30 Tm (walk) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 86.15 382.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 87.76 382.30 Tm (in) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 92.27 382.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 93.89 382.30 Tm (d) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 97.11 382.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 98.72 382.30 Tm (dimensions,) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 129.67 382.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 131.28 382.30 Tm (each) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 143.85 382.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 13.00 375.20 Tm (coordinate) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 40.08 375.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 41.69 375.20 Tm (moves) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 58.77 375.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 60.39 375.20 Tm (by) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 66.51 375.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 68.12 375.20 Tm (+/-1) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 78.28 375.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 79.89 375.20 Tm (with) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 90.20 375.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 91.82 375.20 Tm (probability) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 118.25 375.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 119.86 375.20 Tm (1/\(2d\),) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 136.62 375.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 138.23 375.20 Tm (stays) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 151.77 375.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 153.38 375.20 Tm (put) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 161.45 375.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 13.00 368.10 Tm (with) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 23.31 368.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 24.92 368.10 Tm (probability) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 51.36 368.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 52.97 368.10 Tm (1-1/d;) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 67.80 368.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 69.41 368.10 Tm (E[x) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 77.79 367.17 Tm (n) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 80.11 368.10 Tm (]=0) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 88.34 368.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 89.95 368.10 Tm (and) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 99.62 368.10 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 101.24 368.10 Tm (Var\(x) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 115.09 367.17 Tm (n) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 117.42 368.10 Tm (\)=n/d.) Tj ET
+0.82 g 13.00 358.70 159.20 9.60 re f 0 g
+BT /F2 7.40 Tf 1 0 0 1 14.50 360.60 Tm (8b. STATE CLASSIFICATION) Tj ET
+BT /F2 5.80 Tf 1 0 0 1 13.00 350.40 Tm (accessible) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 42.34 350.40 Tm (:) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 43.95 350.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 45.57 350.40 Tm (j) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 46.85 350.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 48.47 350.40 Tm (reachable) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 73.93 350.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 75.55 350.40 Tm (from) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 87.15 350.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 88.76 350.40 Tm (i:) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 91.66 350.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 93.27 350.40 Tm (\(P) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 99.07 352.37 Tm (n) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 101.39 350.40 Tm (\)) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 103.33 349.47 Tm (ij) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 105.18 350.40 Tm (>0) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 111.79 350.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 113.40 350.40 Tm (some) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 127.58 350.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 129.20 350.40 Tm (n) Tj ET
+BT /F2 5.80 Tf 1 0 0 1 13.00 343.40 Tm (communicate) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 50.39 343.40 Tm (:) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 52.00 343.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 53.61 343.40 Tm (i,j) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 57.80 343.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 59.41 343.40 Tm (reach) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 73.92 343.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 75.53 343.40 Tm (each) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 88.10 343.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 89.72 343.40 Tm (other;) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 104.55 343.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 106.16 343.40 Tm (classes) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 125.50 343.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 127.11 343.40 Tm (partition) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 147.74 343.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 149.35 343.40 Tm (S) Tj ET
+BT /F2 5.80 Tf 1 0 0 1 13.00 336.40 Tm (irreducible) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 42.66 336.40 Tm (:) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 44.27 336.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 45.88 336.40 Tm (one) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 55.55 336.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 57.17 336.40 Tm (class) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 70.38 336.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 71.99 336.40 Tm (\(all) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 79.72 336.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 81.34 336.40 Tm (states) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 96.81 336.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 98.42 336.40 Tm (communicate\)) Tj ET
+BT /F2 5.80 Tf 1 0 0 1 13.00 329.40 Tm (recurrent) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 38.46 329.40 Tm (:) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 40.07 329.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 41.69 329.40 Tm (return) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 56.84 329.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 58.45 329.40 Tm (w.p.) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 69.09 329.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 70.70 329.40 Tm (1;) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 75.54 329.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 77.15 329.40 Tm (else) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 87.79 329.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 89.40 329.40 Tm (transient) Tj ET
+BT /F2 5.80 Tf 1 0 0 1 13.00 322.40 Tm (period) Tj ET
+BT /F2 5.80 Tf 1 0 0 1 30.72 322.40 Tm ( ) Tj ET
+BT /F2 5.80 Tf 1 0 0 1 32.34 322.40 Tm (d) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 35.88 322.40 Tm (:) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 37.49 322.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 39.11 322.40 Tm (gcd) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 48.46 322.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 50.07 322.40 Tm (of) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 54.91 322.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 56.52 322.40 Tm (return) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 71.67 322.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 73.28 322.40 Tm (times;) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 88.75 322.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 90.36 322.40 Tm (d=1) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 100.20 322.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 101.81 322.40 Tm (aperiodic) Tj ET
+BT /F2 5.80 Tf 1 0 0 1 13.00 315.40 Tm (absorbing) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 41.04 315.40 Tm (:) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 42.65 315.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 44.26 315.40 Tm (P) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 48.13 314.47 Tm (ii) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 49.98 315.40 Tm (=1) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 56.60 315.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 58.21 315.40 Tm (\(never) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 74.65 315.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 76.26 315.40 Tm (leaves) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 93.02 315.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 94.63 315.40 Tm (state) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 107.21 315.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 108.82 315.40 Tm (i\)) Tj ET
+0.82 g 177.20 573.90 159.20 9.60 re f 0 g
+BT /F2 7.40 Tf 1 0 0 1 178.70 575.80 Tm (9. FIRST-STEP ANALYSIS) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 177.20 565.60 Tm (Absorbing) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 203.31 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 204.92 565.60 Tm (states) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 220.40 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 222.01 565.60 Tm (a) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 225.24 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 226.85 565.60 Tm (\(target\)) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 245.54 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 247.15 565.60 Tm (and) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 256.83 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 258.44 565.60 Tm (set.) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 267.79 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 269.40 565.60 Tm (Condition) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 293.90 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 295.51 565.60 Tm (on) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 301.96 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 303.58 565.60 Tm (the) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 311.64 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 313.25 565.60 Tm (first) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 322.59 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 177.20 558.50 Tm (move,) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 192.99 558.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 194.61 558.50 Tm (then) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 205.89 558.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 207.50 558.50 Tm (solve) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 221.04 558.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 222.65 558.50 Tm (linear) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 236.84 558.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 238.45 558.50 Tm (equations.) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 177.20 550.80 Tm (Hitting) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 197.46 550.80 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 199.24 550.80 Tm (probability) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 231.96 550.80 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 233.74 550.80 Tm (u) Tj ET
+BT /F2 4.61 Tf 1 0 0 1 237.65 549.78 Tm (i) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 177.20 543.80 Tm (u) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 180.42 542.87 Tm (i) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 181.35 543.80 Tm (=P\(hit) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 196.66 543.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 198.28 543.80 Tm (target) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 213.11 543.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 214.72 543.80 Tm (A) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 218.59 543.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 220.20 543.80 Tm (before) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 236.64 543.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 238.26 543.80 Tm (B) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 242.12 543.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 243.74 543.80 Tm (|) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 245.24 543.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 246.86 543.80 Tm (start) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 258.14 543.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 259.75 543.80 Tm (i\).) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 264.58 543.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 266.19 543.80 Tm (Boundary:) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 292.63 543.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 294.24 543.80 Tm (u=1) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 304.08 543.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 305.69 543.80 Tm (on) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 312.14 543.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 313.75 543.80 Tm (A,) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 319.24 543.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 320.85 543.80 Tm (u=0) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 330.68 543.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 177.20 536.70 Tm (on) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 183.65 536.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 185.26 536.70 Tm (B.) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 177.20 527.40 Tm (u) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 182.09 526.12 Tm (i) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 183.69 527.40 Tm (=) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 188.36 527.40 Tm (\345) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 194.07 526.12 Tm (j) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 195.67 527.40 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 197.89 527.40 Tm (P) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 203.23 526.12 Tm (ij) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 206.43 527.40 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 208.65 527.40 Tm (u) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 213.54 526.12 Tm (j) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 215.14 527.40 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 217.37 527.40 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 219.59 527.40 Tm (\(i) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 224.48 527.40 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 226.70 527.40 Tm (transient\)) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 177.20 519.40 Tm (Expected) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 205.65 519.40 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 207.43 519.40 Tm (hitting) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 226.99 519.40 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 228.76 519.40 Tm (time) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 241.92 519.40 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 243.70 519.40 Tm (v) Tj ET
+BT /F2 4.61 Tf 1 0 0 1 247.26 518.38 Tm (i) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 177.20 512.40 Tm (v) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 180.10 511.47 Tm (i) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 181.03 512.40 Tm (=E[steps) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 203.76 512.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 205.37 512.40 Tm (to) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 210.21 512.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 211.82 512.40 Tm (absorption) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 238.90 512.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 240.51 512.40 Tm (|) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 242.02 512.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 243.63 512.40 Tm (start) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 254.91 512.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 256.53 512.40 Tm (i].) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 261.04 512.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 262.65 512.40 Tm (Boundary:) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 289.09 512.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 290.70 512.40 Tm (v=0) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 300.21 512.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 301.82 512.40 Tm (on) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 308.27 512.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 309.89 512.40 Tm (absorbing) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 335.35 512.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 177.20 505.30 Tm (states.) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 177.20 496.00 Tm (v) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 181.65 494.72 Tm (i) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 183.25 496.00 Tm (=1+) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 197.04 496.00 Tm (\345) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 202.75 494.72 Tm (j) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 204.35 496.00 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 206.57 496.00 Tm (P) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 211.91 494.72 Tm (ij) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 215.11 496.00 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 217.33 496.00 Tm (v) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 221.78 494.72 Tm (j) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 223.38 496.00 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 225.61 496.00 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 227.83 496.00 Tm (\(i) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 232.72 496.00 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 234.94 496.00 Tm (transient\)) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 177.20 488.60 Tm (The) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 187.19 488.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 188.81 488.60 Tm (+1) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 195.42 488.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 197.03 488.60 Tm (counts) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 214.12 488.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 215.73 488.60 Tm (the) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 223.79 488.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 225.40 488.60 Tm (current) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 243.45 488.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 245.07 488.60 Tm (step.) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 257.64 488.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 259.25 488.60 Tm (Solve) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 273.76 488.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 275.37 488.60 Tm (the) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 283.43 488.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 285.05 488.60 Tm (linear) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 299.23 488.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 300.84 488.60 Tm (system) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 319.21 488.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 320.82 488.60 Tm (for) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 327.59 488.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 329.20 488.60 Tm (all) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 335.00 488.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 177.20 481.50 Tm (transient) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 199.44 481.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 201.06 481.50 Tm (i.) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 177.20 473.80 Tm (Expected) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 205.65 473.80 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 207.43 473.80 Tm (absorption) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 240.50 473.80 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 242.28 473.80 Tm (reward) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 177.20 464.60 Tm (w) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 183.42 463.32 Tm (i) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 185.03 464.60 Tm (=r) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 192.81 463.32 Tm (i) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 194.41 464.60 Tm (+) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 199.08 464.60 Tm (\345) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 204.79 463.32 Tm (j) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 206.39 464.60 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 208.61 464.60 Tm (P) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 213.95 463.32 Tm (ij) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 217.15 464.60 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 219.37 464.60 Tm (w) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 225.60 463.32 Tm (j) Tj ET
+0.82 g 341.40 573.90 159.20 9.60 re f 0 g
+BT /F2 7.40 Tf 1 0 0 1 342.90 575.80 Tm (10. GAMBLER'S RUIN) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 341.40 565.60 Tm (On) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 349.14 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 350.75 565.60 Tm (0..N,) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 363.00 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 364.61 565.60 Tm (absorbing) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 390.08 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 391.69 565.60 Tm (at) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 396.53 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 398.14 565.60 Tm (0) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 401.37 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 402.98 565.60 Tm (and) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 412.65 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 414.27 565.60 Tm (N.) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 420.07 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 421.68 565.60 Tm (Up) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 429.09 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 430.70 565.60 Tm (w.p.) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 441.34 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 442.95 565.60 Tm (p,) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 447.79 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 449.40 565.60 Tm (down) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 463.26 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 464.88 565.60 Tm (w.p.) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 475.51 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 477.13 565.60 Tm (q=1-p.) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 493.73 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 341.40 558.50 Tm (u) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 344.62 557.57 Tm (i) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 345.55 558.50 Tm (=P\(reach) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 369.24 558.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 370.86 558.50 Tm (N) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 375.04 558.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 376.66 558.50 Tm (before) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 393.10 558.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 394.71 558.50 Tm (0) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 397.94 558.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 399.55 558.50 Tm (|) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 401.06 558.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 402.67 558.50 Tm (start) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 413.95 558.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 415.56 558.50 Tm (i\).) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 341.40 550.80 Tm (Case) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 356.70 550.80 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 358.48 550.80 Tm (p) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 362.39 550.80 Tm ( ) Tj ET
+BT /FS 6.40 Tf 1 0 0 1 364.16 550.80 Tm (\271) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 367.68 550.80 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 369.46 550.80 Tm (q) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 373.37 550.80 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 375.15 550.80 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 376.93 550.80 Tm (\(let) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 386.53 550.80 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 388.31 550.80 Tm (r=q/p\)) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 341.40 541.60 Tm (u) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 346.29 540.32 Tm (i) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 347.89 541.60 Tm (=\(1-r) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 365.45 544.32 Tm (i) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 367.05 541.60 Tm (\)/\(1-r) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 384.83 544.32 Tm (N) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 388.99 541.60 Tm (\)) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 341.40 533.60 Tm (Case) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 356.70 533.60 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 358.48 533.60 Tm (p=q=1/2) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 382.67 533.60 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 384.45 533.60 Tm (\(fair\)) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 341.40 524.40 Tm (u) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 346.29 523.12 Tm (i) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 347.89 524.40 Tm (=i/N) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 341.40 516.40 Tm (Prob) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 355.98 516.40 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 357.76 516.40 Tm (of) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 363.80 516.40 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 365.58 516.40 Tm (ruin) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 377.67 516.40 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 379.45 516.40 Tm (\(hit) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 389.40 516.40 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 391.18 516.40 Tm (0) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 394.74 516.40 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 396.52 516.40 Tm (first\)) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 341.40 507.20 Tm (=1-u) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 358.07 505.92 Tm (i) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 341.40 499.20 Tm (Expected) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 369.85 499.20 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 371.63 499.20 Tm (duration) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 397.23 499.20 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 399.01 499.20 Tm (v) Tj ET
+BT /F2 4.61 Tf 1 0 0 1 402.57 498.18 Tm (i) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 341.40 492.20 Tm (Fair) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 351.39 492.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 353.00 492.20 Tm (game) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 367.51 492.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 369.12 492.20 Tm (p=q=1/2:) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 341.40 482.90 Tm (v) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 345.85 481.62 Tm (i) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 347.45 482.90 Tm (=i\(N-i\)) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 341.40 475.50 Tm (Biased) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 359.13 475.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 360.74 475.50 Tm (p) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 363.97 475.50 Tm (\271) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 367.15 475.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 368.76 475.50 Tm (q:) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 341.40 466.20 Tm (v) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 345.85 464.92 Tm (i) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 347.45 466.20 Tm (=i/\(q-p\)) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 374.34 466.20 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 376.56 466.20 Tm (-) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 379.23 466.20 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 381.45 466.20 Tm (\(N/\(q-p\)\)\(1-r) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 425.43 468.92 Tm (i) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 427.03 466.20 Tm (\)/\(1-r) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 444.81 468.92 Tm (N) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 448.97 466.20 Tm (\)) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 341.40 458.20 Tm (Worked:) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 367.00 458.20 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 368.78 458.20 Tm (p=.4,) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 383.54 458.20 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 385.32 458.20 Tm (N=5) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 341.40 451.20 Tm (r=q/p=1.5.) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 367.84 451.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 369.45 451.20 Tm (Reach) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 386.22 451.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 387.83 451.20 Tm (N) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 392.02 451.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 393.63 451.20 Tm (before) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 410.07 451.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 411.68 451.20 Tm (0:) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 416.52 451.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 418.13 451.20 Tm (u) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 421.36 450.27 Tm (1) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 423.68 451.20 Tm (\273) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 426.86 451.20 Tm (.076,) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 439.76 451.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 441.38 451.20 Tm (u) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 444.60 450.27 Tm (3) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 446.92 451.20 Tm (\273) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 450.11 451.20 Tm (.360.) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 463.01 451.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 464.62 451.20 Tm (Ruin=1-u) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 488.31 450.27 Tm (i) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 489.24 451.20 Tm (.) Tj ET
+0.82 g 505.60 573.90 159.20 9.60 re f 0 g
+BT /F2 7.40 Tf 1 0 0 1 507.10 575.80 Tm (11. MARTINGALES) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 505.60 565.60 Tm ({M) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 512.37 564.67 Tm (n) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 514.69 565.60 Tm (}) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 516.63 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 518.24 565.60 Tm (is) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 522.43 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 524.04 565.60 Tm (a) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 527.26 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 528.88 565.60 Tm (martingale) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 555.95 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 557.56 565.60 Tm (if) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 560.46 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 562.08 565.60 Tm (E|M) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 572.28 564.67 Tm (n) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 574.61 565.60 Tm (|<) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 579.50 565.60 Tm (\245) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 583.64 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 585.25 565.60 Tm (and:) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 505.60 556.30 Tm (E[M) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 520.26 555.02 Tm (n+1) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 530.35 556.30 Tm (|M) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 539.25 555.02 Tm (0) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 542.46 556.30 Tm (..M) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 553.57 555.02 Tm (n) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 557.09 556.30 Tm (]=M) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 571.09 555.02 Tm (n) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 505.60 548.90 Tm (Then) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 518.82 548.90 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 520.43 548.90 Tm (E[M) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 530.74 547.97 Tm (n) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 533.06 548.90 Tm (]=E[M) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 548.38 547.97 Tm (0) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 550.70 548.90 Tm (]) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 552.31 548.90 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 553.92 548.90 Tm (for) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 560.69 548.90 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 562.30 548.90 Tm (all) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 568.10 548.90 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 569.72 548.90 Tm (n.) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 505.60 541.20 Tm (Common) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 533.33 541.20 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 535.11 541.20 Tm (constructions) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 505.60 534.20 Tm (RW) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 515.26 534.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 516.88 534.20 Tm (with) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 527.19 534.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 528.80 534.20 Tm (p=1/2:) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 545.09 534.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 546.70 534.20 Tm (M) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 551.53 533.27 Tm (n) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 553.85 534.20 Tm (=S) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 561.11 533.27 Tm (n) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 563.43 534.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 565.04 534.20 Tm (is) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 569.23 534.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 570.84 534.20 Tm (a) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 574.07 534.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 575.68 534.20 Tm (martingale.) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 505.60 524.90 Tm (M) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 512.26 523.62 Tm (n) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 515.78 524.90 Tm (=S) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 525.79 523.62 Tm (n) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 529.31 527.62 Tm (2) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 532.51 524.90 Tm (-n) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 540.07 524.90 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 542.29 524.90 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 544.51 524.90 Tm (\(fair) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 559.63 524.90 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 561.85 524.90 Tm (RW\)) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 577.84 524.90 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 580.07 524.90 Tm (is) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 586.74 524.90 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 588.96 524.90 Tm (a) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 593.41 524.90 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 595.63 524.90 Tm (martingale) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 505.60 517.50 Tm (Biased) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 523.33 517.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 524.94 517.50 Tm (RW:) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 536.22 517.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 537.83 517.50 Tm (\(q/p\)) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 549.76 519.47 Tm (S_n) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 557.18 517.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 558.80 517.50 Tm (is) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 562.98 517.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 564.60 517.50 Tm (a) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 567.82 517.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 569.43 517.50 Tm (martingale.) Tj ET
+0.82 g 505.60 508.10 159.20 9.60 re f 0 g
+BT /F2 7.40 Tf 1 0 0 1 507.10 510.00 Tm (12. STOPPING TIMES / OST) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 505.60 499.80 Tm (T) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 509.14 499.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 510.76 499.80 Tm (is) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 514.94 499.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 516.56 499.80 Tm (a) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 519.78 499.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 521.39 499.80 Tm (stopping) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 543.32 499.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 544.93 499.80 Tm (time) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 555.89 499.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 557.50 499.80 Tm (if) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 560.40 499.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 562.01 499.80 Tm ({T=n}) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 576.04 499.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 577.65 499.80 Tm (depends) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 599.90 499.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 601.51 499.80 Tm (only) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 612.15 499.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 613.76 499.80 Tm (on) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 620.21 499.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 621.83 499.80 Tm (X) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 625.69 498.87 Tm (0) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 628.02 499.80 Tm (..X) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 635.11 498.87 Tm (n) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 637.43 499.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 639.04 499.80 Tm (\(no) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 647.43 499.80 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 505.60 492.70 Tm (peeking) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 525.91 492.70 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 527.52 492.70 Tm (ahead\).) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 505.60 485.00 Tm (Optional) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 531.56 485.00 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 533.34 485.00 Tm (Stopping) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 561.07 485.00 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 562.85 485.00 Tm (Theorem) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 505.60 475.80 Tm (E[M) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 520.26 474.52 Tm (T) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 523.78 475.80 Tm (]=E[M) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 545.78 474.52 Tm (0) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 548.99 475.80 Tm (]) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 505.60 468.40 Tm (Holds) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 520.42 468.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 522.04 468.40 Tm (if) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 524.94 468.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 526.55 468.40 Tm (ANY) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 538.47 468.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 540.09 468.40 Tm (one) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 549.76 468.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 551.37 468.40 Tm (condition) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 574.59 468.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 576.20 468.40 Tm (holds:) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 505.60 461.30 Tm (\225) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 507.63 461.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 509.24 461.30 Tm (T) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 512.79 461.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 514.40 461.30 Tm (is) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 518.59 461.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 520.20 461.30 Tm (bounded) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 542.77 461.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 544.38 461.30 Tm (\(T) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 549.86 461.30 Tm (\243) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 553.04 461.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 554.66 461.30 Tm (c\),) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 561.10 461.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 562.71 461.30 Tm (or) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 505.60 454.30 Tm (\225) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 507.63 454.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 509.24 454.30 Tm (M) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 514.07 454.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 515.69 454.30 Tm (is) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 519.87 454.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 521.49 454.30 Tm (bounded) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 544.06 454.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 545.67 454.30 Tm (and) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 555.35 454.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 556.96 454.30 Tm (T<) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 563.89 454.30 Tm (\245) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 568.03 454.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 569.64 454.30 Tm (a.s.,) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 580.60 454.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 582.21 454.30 Tm (or) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 505.60 447.30 Tm (\225) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 507.63 447.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 509.24 447.30 Tm (E[T]<) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 523.27 447.30 Tm (\245) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 527.40 447.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 529.01 447.30 Tm (and) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 538.69 447.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 540.30 447.30 Tm (increments) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 568.66 447.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 570.28 447.30 Tm (bounded.) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 505.60 440.30 Tm (Use:) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 517.52 440.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 519.14 440.30 Tm (apply) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 533.00 440.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 534.61 440.30 Tm (E[M) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 544.92 439.37 Tm (T) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 547.48 440.30 Tm (]=E[M) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 562.79 439.37 Tm (0) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 565.11 440.30 Tm (]) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 566.72 440.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 568.33 440.30 Tm (to) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 573.17 440.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 574.78 440.30 Tm (solve) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 588.32 440.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 589.93 440.30 Tm (exit) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 598.96 440.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 600.57 440.30 Tm (probs) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 615.08 440.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 616.69 440.30 Tm (/) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 618.30 440.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 619.91 440.30 Tm (expected) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 643.45 440.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 645.06 440.30 Tm (times.) Tj ET
+0.82 g 669.80 573.90 159.20 9.60 re f 0 g
+BT /F2 7.40 Tf 1 0 0 1 671.30 575.80 Tm (13. BRANCHING \(GALTON-WATSON\)) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 669.80 565.60 Tm (Z) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 673.34 564.67 Tm (n) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 675.67 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 677.28 565.60 Tm (=) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 680.67 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 682.28 565.60 Tm (size) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 692.59 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 694.20 565.60 Tm (of) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 699.04 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 700.65 565.60 Tm (generation) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 728.06 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 729.67 565.60 Tm (n,) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 734.51 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 736.12 565.60 Tm (Z) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 739.66 564.67 Tm (0) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 741.98 565.60 Tm (=1.) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 750.21 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 751.82 565.60 Tm (Each) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 765.04 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 766.65 565.60 Tm (individual) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 790.83 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 792.44 565.60 Tm (has) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 801.79 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 803.40 565.60 Tm (iid) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 809.20 565.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 669.80 558.50 Tm (offspring,) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 693.66 558.50 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 695.27 558.50 Tm (PGF) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 707.19 558.50 Tm ( ) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 708.80 558.50 Tm (\146) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 711.83 558.50 Tm (.) Tj ET
+BT /F2 5.80 Tf 1 0 0 1 669.80 551.40 Tm (X) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 673.67 551.40 Tm (:) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 675.28 551.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 676.89 551.40 Tm (offspring) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 699.14 551.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 700.75 551.40 Tm (count) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 714.94 551.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 716.55 551.40 Tm (per) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 724.93 551.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 726.54 551.40 Tm (individual) Tj ET
+BT /F2 5.80 Tf 1 0 0 1 669.80 544.40 Tm (m) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 674.96 544.40 Tm (:) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 676.57 544.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 678.18 544.40 Tm (mean) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 692.69 544.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 694.30 544.40 Tm (offspring) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 716.54 544.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 718.15 544.40 Tm (E[X]=) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 732.50 544.40 Tm (\146) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 735.53 544.40 Tm ('\(1\)) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 669.80 537.40 Tm (\163) Tj ET
+BT /F2 4.18 Tf 1 0 0 1 673.30 539.37 Tm (2) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 675.62 537.40 Tm (:) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 677.23 537.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 678.84 537.40 Tm (offspring) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 701.09 537.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 702.70 537.40 Tm (variance) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 724.62 537.40 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 726.23 537.40 Tm (Var\(X\)) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 669.80 529.80 Tm (Generation) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 703.59 529.80 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 705.36 529.80 Tm (PGF) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 718.52 529.80 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 720.30 529.80 Tm (\(compose\)) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 669.80 520.60 Tm (\146) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 673.97 519.32 Tm (n+1) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 684.05 520.60 Tm (\(s\)=) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 698.50 520.60 Tm (\146) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 702.67 519.32 Tm (n) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 706.19 520.60 Tm (\() Tj ET
+BT /FS 8.00 Tf 1 0 0 1 708.85 520.60 Tm (\146) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 713.02 520.60 Tm (\(s\)\)=) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 730.13 520.60 Tm (\146) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 734.30 520.60 Tm (\() Tj ET
+BT /FS 8.00 Tf 1 0 0 1 736.97 520.60 Tm (\146) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 741.13 519.32 Tm (n) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 744.65 520.60 Tm (\(s\)\)) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 669.80 512.60 Tm (Moments) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 669.80 503.40 Tm (E[Z) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 682.69 502.12 Tm (n) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 686.21 503.40 Tm (]=m) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 700.66 506.12 Tm (n) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 669.80 496.00 Tm (Variance) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 692.69 496.00 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 694.30 496.00 Tm (\(m) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 701.06 496.00 Tm (\271) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 704.25 496.00 Tm (1\):) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 669.80 486.70 Tm (Var\(Z) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 690.25 485.42 Tm (n) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 693.77 486.70 Tm (\)=) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 701.10 486.70 Tm (\163) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 705.93 489.42 Tm (2) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 709.13 486.70 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 711.35 486.70 Tm (m) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 718.47 489.42 Tm (n-1) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 727.11 486.70 Tm (\(m) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 736.88 489.42 Tm (n) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 740.40 486.70 Tm (-1\)/\(m-1\)) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 669.80 479.30 Tm (If) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 673.02 479.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 674.64 479.30 Tm (m=1:) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 687.69 479.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 689.31 479.30 Tm (Var\(Z) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 703.81 478.37 Tm (n) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 706.13 479.30 Tm (\)=n) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 714.67 479.30 Tm (\163) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 718.17 481.27 Tm (2) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 720.49 479.30 Tm (.) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 669.80 471.60 Tm (Extinction) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 700.74 471.60 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 702.52 471.60 Tm (prob) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 716.74 471.60 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 718.52 471.60 Tm (q) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 669.80 464.60 Tm (q) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 673.02 464.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 674.64 464.60 Tm (=) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 678.02 464.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 679.64 464.60 Tm (smallest) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 700.91 464.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 702.52 464.60 Tm (root) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 712.51 464.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 714.12 464.60 Tm (in) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 718.64 464.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 720.25 464.60 Tm ([0,1]) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 731.54 464.60 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 733.15 464.60 Tm (of:) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 669.80 455.30 Tm (q=) Tj ET
+BT /FS 8.00 Tf 1 0 0 1 679.36 455.30 Tm (\146) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 683.53 455.30 Tm (\(q\)) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 669.80 447.90 Tm (\225) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 671.83 447.90 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 673.44 447.90 Tm (m) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 678.27 447.90 Tm (\243) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 681.46 447.90 Tm (1) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 684.68 447.90 Tm ( ) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 686.30 447.90 Tm (\336) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 692.02 447.90 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 693.63 447.90 Tm (q=1) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 703.47 447.90 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 705.08 447.90 Tm (\(certain) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 724.42 447.90 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 726.03 447.90 Tm (extinction\).) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 669.80 440.90 Tm (\225) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 671.83 440.90 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 673.44 440.90 Tm (m>1) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 684.89 440.90 Tm ( ) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 686.50 440.90 Tm (\336) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 692.22 440.90 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 693.84 440.90 Tm (q<1) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 703.67 440.90 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 705.28 440.90 Tm (\(survival) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 726.87 440.90 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 728.48 440.90 Tm (possible\).) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 669.80 433.30 Tm (Vaccination) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 705.72 433.30 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 707.50 433.30 Tm (/) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 709.28 433.30 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 711.06 433.30 Tm (thinning) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 669.80 426.30 Tm (Vaccinate) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 695.27 426.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 696.88 426.30 Tm (fraction) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 715.90 426.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 717.51 426.30 Tm (v:) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 722.02 426.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 723.64 426.30 Tm (effective) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 745.23 426.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 746.85 426.30 Tm (mean) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 761.35 426.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 762.97 426.30 Tm (m'=m\(1-v\).) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 790.65 426.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 792.27 426.30 Tm (Outbreak) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 816.12 426.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 817.73 426.30 Tm (dies) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 828.37 426.30 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 669.80 419.20 Tm (if) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 672.70 419.20 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 674.31 419.20 Tm (m') Tj ET
+BT /FS 5.80 Tf 1 0 0 1 680.25 419.20 Tm (\243) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 683.44 419.20 Tm (1.) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 669.80 409.90 Tm (v) Tj ET
+BT /F2 5.76 Tf 1 0 0 1 674.25 412.62 Tm (*) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 676.49 409.90 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 678.71 409.90 Tm (=) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 683.38 409.90 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 685.61 409.90 Tm (1) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 690.06 409.90 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 692.28 409.90 Tm (-) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 694.94 409.90 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 697.17 409.90 Tm (1/m) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 710.95 409.90 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 713.18 409.90 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 715.40 409.90 Tm (\(herd-immunity) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 773.62 409.90 Tm ( ) Tj ET
+BT /F2 8.00 Tf 1 0 0 1 775.85 409.90 Tm (threshold\)) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 669.80 401.90 Tm (Worked:) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 695.40 401.90 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 697.18 401.90 Tm (Poisson\(m\)) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 732.03 401.90 Tm ( ) Tj ET
+BT /F2 6.40 Tf 1 0 0 1 733.81 401.90 Tm (offspring) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 669.80 394.90 Tm (\146) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 672.82 394.90 Tm (\(s\)=e) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 686.20 396.87 Tm (m\(s-1\)) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 698.26 394.90 Tm (.) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 699.87 394.90 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 701.48 394.90 Tm (m=1.5) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 717.76 394.90 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 719.37 394.90 Tm (gives) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 732.91 394.90 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 734.52 394.90 Tm (extinction) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 759.02 394.90 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 760.64 394.90 Tm (q) Tj ET
+BT /FS 5.80 Tf 1 0 0 1 763.86 394.90 Tm (\273) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 767.04 394.90 Tm (0.417,) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 783.17 394.90 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 784.78 394.90 Tm (herd) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 796.39 394.90 Tm ( ) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 798.00 394.90 Tm (v) Tj ET
+BT /F1 4.18 Tf 1 0 0 1 800.90 396.87 Tm (*) Tj ET
+BT /F1 5.80 Tf 1 0 0 1 802.52 394.90 Tm (=1/3.) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+8 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding >>
+endobj
+10 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Roman /Encoding /WinAnsiEncoding >>
+endobj
+11 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Bold /Encoding /WinAnsiEncoding >>
+endobj
+12 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Italic /Encoding /WinAnsiEncoding >>
+endobj
+13 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Symbol >>
+endobj
+xref
+0 14
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000127 00000 n 
+0000000323 00000 n 
+0000084921 00000 n 
+0000085117 00000 n 
+0000146254 00000 n 
+0000146351 00000 n 
+0000146453 00000 n 
+0000146558 00000 n 
+0000146658 00000 n 
+0000146757 00000 n 
+0000146858 00000 n 
+trailer
+<< /Size 14 /Root 1 0 R >>
+startxref
+146926
+%%EOF
